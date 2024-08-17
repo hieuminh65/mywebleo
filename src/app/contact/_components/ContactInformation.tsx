@@ -13,7 +13,7 @@ const ContactInfo: React.FC = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         >
           <EnvelopeOpenIcon className="text-blue-500 w-10 h-10 mx-auto" />
-          <h2 className="text-3xl font-semibold text-gray-800 mt-4">
+          <h2 className="text-3xl font-semibold text-off-black mt-4">
             Gmail: leo@example.com
           </h2>
         </motion.div>
@@ -24,7 +24,7 @@ const ContactInfo: React.FC = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
         >
           <LinkedInLogoIcon className="text-blue-600 w-10 h-10 mx-auto" />
-          <h2 className="text-3xl font-semibold text-gray-800 mt-4">
+          <h2 className="text-3xl font-semibold text-off-black mt-4">
             LinkedIn: linkedin.com/in/leo
           </h2>
         </motion.div>

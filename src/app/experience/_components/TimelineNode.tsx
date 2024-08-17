@@ -44,15 +44,15 @@ const TimelineNode: React.FC<TimelineNodeProps> = ({
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.0, duration: 0.5, ease: "easeOut" }} // Show card after the node reaches position
       >
-        <h4 className="mb-1 text-xl font-bold text-gray-800">{title}</h4>
+        <h4 className="mb-1 text-xl font-bold text-off-black">{title}</h4>
         <p className="text-sm text-gray-500">{company}</p>
         <p className="text-sm text-gray-500">{date}</p>
-        <p className="mt-2 text-gray-600">{description}</p>
+        <p className="mt-2 text-dark-grey">{description}</p>
         <div className="mt-3 flex flex-wrap justify-start">
           {techStack.map((tech, index) => (
             <span
               key={index}
-              className="bg-gray-200 text-gray-800 text-xs font-medium mr-2 mb-2 px-2 py-1 rounded-full"
+              className="bg-gray-200 text-off-black text-xs font-medium mr-2 mb-2 px-2 py-1 rounded-full"
             >
               {tech}
             </span>

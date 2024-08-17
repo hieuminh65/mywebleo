@@ -24,6 +24,7 @@ const config = {
         "cool-grey": "#B0BEC5",
         "highlight-teal": "#008080",
         "highlight-orange": "#FF7043",
+        "dark-grey": "#4A4A4A",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

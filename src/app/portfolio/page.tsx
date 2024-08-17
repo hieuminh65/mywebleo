@@ -257,13 +257,17 @@ const PortfolioPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
+    <div className="min-h-screen bg-off-white flex flex-col">
       <Navbar />
       <main className="flex-grow pt-20 pb-12">
         <div className="max-w-6xl mx-auto px-6">
           {/* Featured Projects Section */}
+          <h2 className="text-4xl font-bold text-off-black mb-4 mt-8">
+            Portfolio
+          </h2>
+          <div className="w-full h-1 bg-highlight-orange mb-16"></div>
           <motion.h2
-            className="text-3xl font-bold text-gray-800 mb-4 mt-8"
+            className="text-3xl font-bold text-off-black mb-4 mt-8"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
@@ -271,7 +275,7 @@ const PortfolioPage: React.FC = () => {
             Featured Projects
           </motion.h2>
           <motion.p
-            className="text-gray-600 mb-8"
+            className="text-dark-grey mb-8"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
@@ -303,7 +307,7 @@ const PortfolioPage: React.FC = () => {
 
           {/* Personal Projects Section */}
           <motion.h2
-            className="text-3xl font-bold text-gray-800 mb-4 mt-8"
+            className="text-3xl font-bold text-off-black mb-4 mt-8"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
@@ -311,7 +315,7 @@ const PortfolioPage: React.FC = () => {
             Personal Projects
           </motion.h2>
           <motion.p
-            className="text-gray-600 mb-8"
+            className="text-dark-grey mb-8"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 1.6 }}
@@ -343,7 +347,7 @@ const PortfolioPage: React.FC = () => {
 
           {/* Academic Projects Section */}
           <motion.h2
-            className="text-3xl font-bold text-gray-800 mb-4 mt-8"
+            className="text-3xl font-bold text-off-black mb-4 mt-8"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 2.7 }}
@@ -351,7 +355,7 @@ const PortfolioPage: React.FC = () => {
             Academic Projects
           </motion.h2>
           <motion.p
-            className="text-gray-600 mb-8"
+            className="text-dark-grey mb-8"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 2.8 }}
