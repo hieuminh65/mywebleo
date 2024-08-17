@@ -30,11 +30,6 @@ const Skills: React.FC = () => {
           and Large Language Models.
         </motion.p>
         <AnimatedBeamCircle />
-        <div className="flex justify-center">
-          <Link href="/about" passHref>
-            <ShimmerButton>Learn More</ShimmerButton>
-          </Link>
-        </div>
       </div>
     </section>
   );

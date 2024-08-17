@@ -11,7 +11,7 @@ const ContactPage: React.FC = () => {
       <Navbar />
       <main className="flex-grow pt-20 pb-12">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-off-black mb-4 mt-8">
+          <h2 className="text-4xl font-bold text-off-black mb-4 mt-8">
             Contact Me
           </h2>
           <div className="w-full h-1 bg-highlight-orange mb-16"></div>

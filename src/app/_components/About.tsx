@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import ShimmerButton from "@/components/buttons/LearnMore";
 
 const About: React.FC = () => {
   return (
@@ -52,9 +51,6 @@ const About: React.FC = () => {
                 />
               </Link>
             </div>
-            <Link href="/about" passHref>
-              <ShimmerButton>Learn More</ShimmerButton>
-            </Link>
           </div>
         </div>
       </div>
