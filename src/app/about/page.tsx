@@ -7,7 +7,7 @@ import HeroSection from "./_components/Hero";
 import ArrowDown from "@/components/ArrowDown";
 import AnimatedBlocksPage from "./_components/AnimatedBlock";
 
-const About: React.FC = () => {
+const AboutPage: React.FC = () => {
   const [showArrow, setShowArrow] = useState(true);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default AboutPage;

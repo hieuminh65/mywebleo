@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import ImpactfulDeploymentCard from "./_components/FeaturedCard";
 import PersonalCreationCard from "./_components/PersonalCard";
 import AcademicEndeavorCard from "./_components/AcademicCard";
-import GradualSpacing from "@/components/magicui/gradual-spacing";
 import { motion } from "framer-motion";
 
 const PortfolioPage: React.FC = () => {

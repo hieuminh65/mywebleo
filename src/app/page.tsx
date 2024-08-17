@@ -11,7 +11,7 @@ import About from "./_components/About";
 import Skills from "./_components/Skills";
 import FeaturedProjects from "./_components/Features";
 
-export default function Home() {
+export default function HomePage() {
   const [showPage, setShowPage] = useState(false);
   const [showArrow, setShowArrow] = useState(true);
 
