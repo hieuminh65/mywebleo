@@ -48,7 +48,11 @@ const TimelineNode: React.FC<TimelineNodeProps> = ({
         <p className="text-sm text-gray-500">{company}</p>
         <p className="text-sm text-gray-500">{date}</p>
         <p className="mt-2 text-dark-grey">{description}</p>
-        <div className="mt-3 flex flex-wrap justify-start">
+        <div
+          className={`mt-3 flex flex-wrap ${
+            isLeft ? "justify-end" : "justify-start"
+          }`}
+        >
           {techStack.map((tech, index) => (
             <span
               key={index}
