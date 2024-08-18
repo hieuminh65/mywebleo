@@ -26,7 +26,7 @@ const AboutPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="items-center justify-center bg-off-white">
+    <div className="items-center justify-center bg-white">
       <Navbar />
       <ArrowDown isVisible={showArrow} />
       <HeroSection />

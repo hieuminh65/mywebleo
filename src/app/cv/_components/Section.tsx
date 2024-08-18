@@ -20,7 +20,7 @@ const Section: React.FC<SectionProps> = ({
     <div className="mb-4">
       <button
         onClick={onToggle}
-        className="flex justify-between items-center w-full p-4 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-highlight-orange hover:bg-gray-200 transition-colors"
+        className="flex justify-between items-center w-full p-4 bg-off-white rounded-lg focus:outline-none focus:ring-2 focus:ring-highlight-orange hover:bg-gray-200 transition-colors"
       >
         <h2 className="text-2xl font-semibold">{title}</h2>
         <span>

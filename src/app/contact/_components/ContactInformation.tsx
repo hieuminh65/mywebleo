@@ -4,7 +4,7 @@ import { EnvelopeOpenIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const ContactInfo: React.FC = () => {
   return (
-    <section className="bg-off-white py-20">
+    <section className="bg-white py-20">
       <div className="container mx-auto px-6 text-center">
         <motion.div
           className="mb-8"

@@ -25,7 +25,7 @@ const Subsection: React.FC<SubsectionProps> = ({
     <div className="mb-4">
       <button
         onClick={onToggle}
-        className="flex justify-between items-center w-full p-3 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-highlight-teal hover:bg-gray-200 transition-colors"
+        className="flex justify-between items-center w-full p-3 bg-off-white rounded-lg focus:outline-none focus:ring-2 focus:ring-highlight-teal hover:bg-gray-200 transition-colors"
       >
         <div className="flex flex-col text-left">
           <h3 className="text-lg font-semibold text-off-black">{title}</h3>

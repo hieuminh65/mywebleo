@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const About: React.FC = () => {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-12">
+    <section className="max-w-4xl mx-auto px-12 py-12 rounded-xl bg-off-white">
       <div className="flex flex-col md:flex-row items-center justify-center">
         <motion.img
           src="/avatar.png"

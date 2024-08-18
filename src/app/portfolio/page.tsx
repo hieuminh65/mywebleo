@@ -257,7 +257,7 @@ const PortfolioPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-off-white flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
       <main className="flex-grow pt-20 pb-12">
         <div className="max-w-6xl mx-auto px-6">
@@ -360,8 +360,8 @@ const PortfolioPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 2.8 }}
           >
-            Projects associated with my academic courses, where I&apos;ve applied
-            theoretical knowledge to practical scenarios.
+            Projects associated with my academic courses, where I&apos;ve
+            applied theoretical knowledge to practical scenarios.
           </motion.p>
           <motion.div
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"

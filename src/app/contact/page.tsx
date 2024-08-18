@@ -7,7 +7,7 @@ import ContactInfo from "./_components/ContactInformation";
 
 const ContactPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-off-white flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
       <main className="flex-grow pt-20 pb-12">
         <div className="max-w-6xl mx-auto px-6">

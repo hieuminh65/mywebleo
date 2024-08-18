@@ -28,7 +28,7 @@ const CVPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-off-white flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
       <main className="flex-grow pt-20 pb-12">
         <div className="max-w-6xl mx-auto px-6">
@@ -39,7 +39,7 @@ const CVPage: React.FC = () => {
 
           {/* Document Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+            <div className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center">
               <h3 className="text-xl font-semibold text-off-black mb-2">
                 1-Page Resume
               </h3>
@@ -49,7 +49,7 @@ const CVPage: React.FC = () => {
               <ShimmerButton>View PDF</ShimmerButton>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+            <div className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center">
               <h3 className="text-xl font-semibold text-off-black mb-2">
                 Printed Version
               </h3>
@@ -59,7 +59,7 @@ const CVPage: React.FC = () => {
               <ShimmerButton>Download PDF</ShimmerButton>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+            <div className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center">
               <h3 className="text-xl font-semibold text-off-black mb-2">
                 Full CV
               </h3>

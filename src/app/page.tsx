@@ -43,7 +43,7 @@ export default function HomePage() {
   return (
     <div className="relative h-screen flex flex-col">
       {!showPage && (
-        <div className="flex-grow flex items-center justify-center bg-off-white">
+        <div className="flex-grow flex items-center justify-center bg-white">
           <GradualSpacing
             text="Hello!"
             className="text-4xl font-bold text-off-black"
@@ -60,7 +60,7 @@ export default function HomePage() {
           >
             <Navbar />
           </motion.div>
-          <div className="flex-grow flex flex-col items-center justify-center bg-off-white text-center px-4">
+          <div className="flex-grow flex flex-col items-center justify-center bg-white text-center px-4">
             <TextRevealByWord text="Building the future, one line of code at a time." />
             <ArrowDown isVisible={showArrow} />
           </div>

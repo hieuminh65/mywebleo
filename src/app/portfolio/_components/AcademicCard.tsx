@@ -60,7 +60,7 @@ const AcademicProjectCard: React.FC<{ project: any }> = ({ project }) => {
             {hiddenTags.length > 0 && (
               <span
                 onClick={toggleShowAll}
-                className="bg-off-black text-white cursor-pointer text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
+                className="bg-off-white text-off-black cursor-pointer text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full hover:bg-gray-200 transition-colors duration-200"
               >
                 {showAll ? "Show Less" : `Show All (${hiddenTags.length})`}
               </span>

@@ -31,12 +31,13 @@ const AnimatedBlock: React.FC<{
       ref={ref}
       initial={{ x: "-20%", y: "10%", opacity: 0 }}
       animate={controls}
-      className={`flex items-center space-x-4 mb-16 p-6 rounded-lg ${bgColor} mx-auto max-w-4xl`}
+      className={`flex items-center space-x-4 mb-16 p-6 rounded-lg ${bgColor} mx-auto max-w-4xl transition-transform transition-shadow duration-300 hover:shadow-lg hover:scale-105 hover:bg-opacity-90`}
     >
-      <img
+      <motion.img
         src={imgSrc}
         alt={text}
         className="w-24 h-24 rounded-full object-cover"
+        whileHover={{ scale: 1.1 }}
       />
       <h2 className="text-xl font-medium text-off-black">{text}</h2>
     </motion.div>
@@ -48,52 +49,52 @@ const AnimatedBlocksPage: React.FC = () => {
     {
       text: "Hi, I&apos;m Leo, but my real name is Hieu Minh Nguyen.",
       imgSrc: "/images/avatar.png",
-      bgColor: "bg-off-white",
+      bgColor: "bg-[#f8d7da]", // Soft Blush Pink
     },
     {
       text: "I&apos;m an international student from Ha Noi, Vietnam.",
       imgSrc: "/images/avatar.png",
-      bgColor: "bg-highlight-orange",
+      bgColor: "bg-[#cce3de]", // Light Sage Green
     },
     {
       text: "I’m currently an undergraduate student at the University of South Florida.",
       imgSrc: "/images/usf.jpg",
-      bgColor: "bg-cool-grey",
+      bgColor: "bg-[#e6e6fa]", // Pale Lavender
     },
     {
       text: "I’m pursuing a degree in Computer Science in the vibrant city of Tampa, Florida.",
       imgSrc: "/images/tampa.jpg",
-      bgColor: "bg-highlight-teal",
+      bgColor: "bg-[#b3cde0]", // Misty Blue
     },
     {
       text: "My journey in tech started with a fascination for problem-solving and building innovative software solutions.",
       imgSrc: "/images/coding.jpg",
-      bgColor: "bg-off-white",
+      bgColor: "bg-[#ffe5b4]", // Warm Peach
     },
     {
       text: "Outside of the classroom, you’ll find me on the soccer field, where I channel my love for the game.",
       imgSrc: "/images/soccer.jpg",
-      bgColor: "bg-cool-grey",
+      bgColor: "bg-[#cce3de]", // Light Sage Green
     },
     {
       text: "I’m a huge fan of Messi; his journey inspires me to push my limits in everything I do.",
       imgSrc: "/images/messi.jpg",
-      bgColor: "bg-highlight-teal",
+      bgColor: "bg-[#e6e6fa]", // Pale Lavender
     },
     {
       text: "I’m passionate about technology, especially in the areas of AI and software development.",
       imgSrc: "/images/ai.jpg",
-      bgColor: "bg-off-white",
+      bgColor: "bg-[#f8d7da]", // Soft Blush Pink
     },
     {
       text: "My goal is to create impactful software that can improve people&apos;s lives.",
       imgSrc: "/images/software.jpg",
-      bgColor: "bg-cool-grey",
+      bgColor: "bg-[#b3cde0]", // Misty Blue
     },
     {
       text: "Thank you for joining me on this journey. Let’s connect and create something amazing together!",
       imgSrc: "/images/connect.jpg",
-      bgColor: "bg-highlight-teal",
+      bgColor: "bg-[#ffe5b4]", // Warm Peach
     },
   ];
 
