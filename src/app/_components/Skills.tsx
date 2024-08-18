@@ -2,9 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { AnimatedBeamCircle } from "./CircleBeam";
-import ShimmerButton from "@/components/buttons/LearnMore";
 
 const Skills: React.FC = () => {
   return (
@@ -24,7 +22,7 @@ const Skills: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="text-lg text-off-black mt-4"
         >
-          With strong experience in full-stack development, I&apos;ve built
+          With strong experience in full-stack development, I’ve built
           end-to-end projects for both web and mobile platforms. I’m also
           passionate about AI and ML, especially in Natural Language Processing
           and Large Language Models.

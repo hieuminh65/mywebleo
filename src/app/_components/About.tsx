@@ -2,15 +2,21 @@
 
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const About: React.FC = () => {
   return (
     <section className="max-w-4xl mx-auto px-4 py-12">
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <img
+        <motion.img
           src="/avatar.png"
           alt="Leo"
-          className="rounded-full w-48 h-48 mb-8 md:mb-0 md:mr-8"
+          className="rounded-full w-48 h-48 mb-8 md:mb-0 md:mr-8 shadow-lg"
+          whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 10px 20px rgba(0,0,0,0.2)",
+          }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
         />
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold text-off-black">About Me</h2>
@@ -20,8 +26,11 @@ const About: React.FC = () => {
             fascination for the latest AI and technology trends. I&apos;m always
             looking for new challenges and opportunities to learn and grow.
           </p>
-          <div className="mt-8 flex flex-col md:flex-row justify-center md:justify-start items-center md:space-x-4">
-            <div className="flex space-x-6 mb-8 md:mb-0 md:mr-8">
+          <div className="mt-8 flex space-x-6 justify-center md:justify-start">
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+            >
               <Link href="https://github.com/yourusername" passHref>
                 <img
                   src="/logos/github.png"
@@ -29,6 +38,11 @@ const About: React.FC = () => {
                   className="w-8 h-8 rounded-full"
                 />
               </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+            >
               <Link href="https://linkedin.com/in/yourusername" passHref>
                 <img
                   src="/logos/linkedin.png"
@@ -36,6 +50,11 @@ const About: React.FC = () => {
                   className="w-8 h-8 rounded-full"
                 />
               </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+            >
               <Link href="https://devpost.com/yourusername" passHref>
                 <img
                   src="/logos/devpost.png"
@@ -43,6 +62,11 @@ const About: React.FC = () => {
                   className="w-8 h-8 rounded-full"
                 />
               </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+            >
               <Link href="https://huggingface.co/yourusername" passHref>
                 <img
                   src="/logos/huggingface.png"
@@ -50,7 +74,7 @@ const About: React.FC = () => {
                   className="w-8 h-8 rounded-full"
                 />
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

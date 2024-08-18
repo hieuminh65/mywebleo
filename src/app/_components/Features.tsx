@@ -8,19 +8,19 @@ const projects = [
     title: "Talk To Listen",
     description:
       "A brief description of the project, its goals, and technologies used.",
-    image: "/projects/project1.jpg",
+    image: "/portfolio/talktolisten.png",
   },
   {
     title: "JobsDreamer",
     description:
       "A brief description of the project, its goals, and technologies used.",
-    image: "/projects/project2.jpg",
+    image: "/portfolio/jobsdreamer.png",
   },
   {
     title: "Bull Bot",
     description:
       "A brief description of the project, its goals, and technologies used.",
-    image: "/projects/project3.jpg",
+    image: "/portfolio/bullbot.png",
   },
   // Add more projects as needed
 ];
