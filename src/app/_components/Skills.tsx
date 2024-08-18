@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="text-lg text-off-black mt-4"
         >
-          With strong experience in full-stack development, I've built
+          With strong experience in full-stack development, I&apos;ve built
           end-to-end projects for both web and mobile platforms. I’m also
           passionate about AI and ML, especially in Natural Language Processing
           and Large Language Models.

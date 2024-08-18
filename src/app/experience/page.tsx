@@ -20,7 +20,7 @@ const ExperiencePage: React.FC = () => {
       title: "Junior Developer",
       company: "Startup Inc.",
       description:
-        "Worked on various frontend and backend projects, building features for the company's core product.",
+        "Worked on various frontend and backend projects, building features for the company&apos;s core product.",
       techStack: ["JavaScript", "Express.js", "MongoDB"],
     },
     {

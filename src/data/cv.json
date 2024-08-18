@@ -65,13 +65,13 @@
         {
           "title": "Research Paper A",
           "content": [
-            "Published a paper on 'AI in Healthcare' in the Journal of Medical Informatics, 2020."
+            "Published a paper on &apos;AI in Healthcare&apos; in the Journal of Medical Informatics, 2020."
           ]
         },
         {
           "title": "Research Paper B",
           "content": [
-            "Co-authored a paper on 'Blockchain for Secure Transactions' in the International Journal of Computer Science, 2021."
+            "Co-authored a paper on &apos;Blockchain for Secure Transactions&apos; in the International Journal of Computer Science, 2021."
           ]
         }
       ]
@@ -114,9 +114,9 @@
           "content": ["Awarded Employee of the Year at Company A in 2020."]
         },
         {
-          "title": "Dean's List",
+          "title": "Dean&apos;s List",
           "content": [
-            "Consistently made the Dean's List during undergraduate studies at XYZ University."
+            "Consistently made the Dean&apos;s List during undergraduate studies at XYZ University."
           ]
         }
       ]

@@ -46,12 +46,12 @@ const AnimatedBlock: React.FC<{
 const AnimatedBlocksPage: React.FC = () => {
   const blocks = [
     {
-      text: "Hi, I'm Leo, but my real name is Hieu Minh Nguyen.",
+      text: "Hi, I&apos;m Leo, but my real name is Hieu Minh Nguyen.",
       imgSrc: "/images/avatar.png",
       bgColor: "bg-off-white",
     },
     {
-      text: "I'm an international student from Ha Noi, Vietnam.",
+      text: "I&apos;m an international student from Ha Noi, Vietnam.",
       imgSrc: "/images/avatar.png",
       bgColor: "bg-highlight-orange",
     },
@@ -86,7 +86,7 @@ const AnimatedBlocksPage: React.FC = () => {
       bgColor: "bg-off-white",
     },
     {
-      text: "My goal is to create impactful software that can improve people's lives.",
+      text: "My goal is to create impactful software that can improve people&apos;s lives.",
       imgSrc: "/images/software.jpg",
       bgColor: "bg-cool-grey",
     },

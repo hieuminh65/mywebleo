@@ -15,10 +15,10 @@ const About: React.FC = () => {
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold text-off-black">About Me</h2>
           <p className="text-lg text-off-black mt-4">
-            I'm Leo, a passionate software developer with a love for creating
-            innovative software. My journey in tech began with a fascination for
-            the latest AI and technology trends. I'm always looking for new
-            challenges and opportunities to learn and grow.
+            I&apos;m Leo, a passionate software developer with a love for
+            creating innovative software. My journey in tech began with a
+            fascination for the latest AI and technology trends. I&apos;m always
+            looking for new challenges and opportunities to learn and grow.
           </p>
           <div className="mt-8 flex flex-col md:flex-row justify-center md:justify-start items-center md:space-x-4">
             <div className="flex space-x-6 mb-8 md:mb-0 md:mr-8">

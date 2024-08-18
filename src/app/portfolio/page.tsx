@@ -360,7 +360,7 @@ const PortfolioPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 2.8 }}
           >
-            Projects associated with my academic courses, where I've applied
+            Projects associated with my academic courses, where I&apos;ve applied
             theoretical knowledge to practical scenarios.
           </motion.p>
           <motion.div
