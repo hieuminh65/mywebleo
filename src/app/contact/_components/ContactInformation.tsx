@@ -14,7 +14,7 @@ const ContactInfo: React.FC = () => {
         >
           <EnvelopeOpenIcon className="text-blue-500 w-10 h-10 mx-auto" />
           <h2 className="text-3xl font-semibold text-off-black mt-4">
-            Gmail: leo@example.com
+            Gmail: hieung.tech@gmail.com
           </h2>
         </motion.div>
 
@@ -25,7 +25,7 @@ const ContactInfo: React.FC = () => {
         >
           <LinkedInLogoIcon className="text-blue-600 w-10 h-10 mx-auto" />
           <h2 className="text-3xl font-semibold text-off-black mt-4">
-            LinkedIn: linkedin.com/in/leo
+            LinkedIn: linkedin.com/in/hieunguyen65/
           </h2>
         </motion.div>
       </div>
