@@ -133,7 +133,7 @@ const TimelineNode: React.FC<TimelineNodeProps> = ({
               onClick={toggleDetails}
             >
               <h4 className="text-lg font-semibold mb-3">Highlights:</h4>
-              <ul className="list-disc list-inside text-off-black">
+              <ul className="list-disc list-inside text-off-black text-left">
                 {bulletPoints.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}

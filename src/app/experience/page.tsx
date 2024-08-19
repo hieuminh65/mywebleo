@@ -12,7 +12,7 @@ const ExperiencePage: React.FC = () => {
       title: "Research Assistant",
       company: "University of South Florida",
       description:
-        "Conducted comprehensive research on bias across many categories, such as age or gender, within Large Language Model (LLM).",
+        "Conducted comprehensive research on bias in Large Language Models (LLMs) and optimized code generation techniques. Collaborated on multiple projects with researchers and students.",
       techStack: [
         "Algorithm",
         "Sanbox Testing",
@@ -35,7 +35,7 @@ const ExperiencePage: React.FC = () => {
       title: "AI/ML Software Engineer (Intern)",
       company: "Resilience, Inc.",
       description:
-        "Focused on building and deploying machine learning models for a mindfulness app aimed at enhancing emotional self-awareness.",
+        "Focused on building and designing a mindfulness mobile app aimed at enhancing emotional self-awareness.",
       techStack: [
         "AWS",
         "React Native",
