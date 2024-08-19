@@ -57,12 +57,12 @@ const AnimatedBlocksPage: React.FC = () => {
       bgColor: "bg-[#cce3de]", // Light Sage Green
     },
     {
-      text: "I’m currently an undergraduate student at the University of South Florida.",
+      text: "I&apos;m currently an undergraduate student at the University of South Florida.",
       imgSrc: "/images/usf.jpg",
       bgColor: "bg-[#e6e6fa]", // Pale Lavender
     },
     {
-      text: "I’m pursuing a degree in Computer Science in the vibrant city of Tampa, Florida.",
+      text: "I&apos;m pursuing a degree in Computer Science in the vibrant city of Tampa, Florida.",
       imgSrc: "/images/tampa.jpg",
       bgColor: "bg-[#b3cde0]", // Misty Blue
     },
@@ -72,17 +72,17 @@ const AnimatedBlocksPage: React.FC = () => {
       bgColor: "bg-[#ffe5b4]", // Warm Peach
     },
     {
-      text: "Outside of the classroom, you’ll find me on the soccer field, where I channel my love for the game.",
+      text: "Outside of the classroom, you&apos;ll find me on the soccer field, where I channel my love for the game.",
       imgSrc: "/images/soccer.jpg",
       bgColor: "bg-[#cce3de]", // Light Sage Green
     },
     {
-      text: "I’m a huge fan of Messi; his journey inspires me to push my limits in everything I do.",
+      text: "I&apos;m a huge fan of Messi; his journey inspires me to push my limits in everything I do.",
       imgSrc: "/images/messi.jpg",
       bgColor: "bg-[#e6e6fa]", // Pale Lavender
     },
     {
-      text: "I’m passionate about technology, especially in the areas of AI and software development.",
+      text: "I&apos;m passionate about technology, especially in the areas of AI and software development.",
       imgSrc: "/images/ai.jpg",
       bgColor: "bg-[#f8d7da]", // Soft Blush Pink
     },
@@ -92,7 +92,7 @@ const AnimatedBlocksPage: React.FC = () => {
       bgColor: "bg-[#b3cde0]", // Misty Blue
     },
     {
-      text: "Thank you for joining me on this journey. Let’s connect and create something amazing together!",
+      text: "Thank you for joining me on this journey. Let&apos;s connect and create something amazing together!",
       imgSrc: "/images/connect.jpg",
       bgColor: "bg-[#ffe5b4]", // Warm Peach
     },

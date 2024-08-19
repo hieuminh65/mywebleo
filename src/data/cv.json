@@ -4,17 +4,10 @@
       "title": "Education",
       "subsections": [
         {
-          "title": "University",
+          "title": "University of South Florida",
           "content": [
-            "Bachelor of Science in Computer Science, XYZ University, 2015-2019.",
-            "Graduated with honors."
-          ]
-        },
-        {
-          "title": "High School",
-          "content": [
-            "High School Diploma, ABC High School, 2011-2015.",
-            "Valedictorian."
+            "Bachelor of Science in Computer Science, Expected May 2025.",
+            "GPA: 3.8/4.0."
           ]
         }
       ]
@@ -23,19 +16,30 @@
       "title": "Work Experience",
       "subsections": [
         {
-          "title": "Company A",
-          "time": "Jan 2020 - Present",
-          "location": "San Francisco, CA",
+          "title": "Research Assistant",
+          "time": "May 2024 - Present",
+          "location": "University of South Florida",
           "content": [
-            "Software Engineer, Company A, 2019-2021.",
-            "Worked on developing scalable web applications using React and Node.js."
+            "Conducted comprehensive research on bias in large language models.",
+            "Developed an AI personal assistant for learning paths and school course curricula."
           ]
         },
         {
-          "title": "Company B",
+          "title": "AI/ML Software Engineer (Intern)",
+          "time": "Sep 2023 - Dec 2023",
+          "location": "Resilience, Inc.",
           "content": [
-            "Senior Software Engineer, Company B, 2021-Present.",
-            "Leading a team of developers to build microservices architecture."
+            "Engineered a mindfulness app with enhanced emotional self-awareness.",
+            "Implemented a machine learning API endpoint on AWS EC2, reducing latency by 80%."
+          ]
+        },
+        {
+          "title": "AI/ML Developer (Intern)",
+          "time": "June 2023 - Aug 2023",
+          "location": "Resilience, Inc.",
+          "content": [
+            "Built a CNN model achieving 72% emotion classification accuracy.",
+            "Streamlined machine learning processes with automated pipelines."
           ]
         }
       ]
@@ -44,17 +48,38 @@
       "title": "Projects",
       "subsections": [
         {
-          "title": "Project X",
+          "title": "Talk To Listen",
           "content": [
-            "Developed a machine learning model to predict stock prices with 85% accuracy.",
-            "Technologies used: Python, TensorFlow."
+            "A SaaS app with 1000+ active users and $3000 in sponsorship from Microsoft, OpenAI, and AWS.",
+            "Built a scalable distributed system and deployed machine learning models on AWS."
           ]
         },
         {
-          "title": "Project Y",
+          "title": "JobsDreamer",
           "content": [
-            "Built a mobile app for task management with over 10,000 downloads.",
-            "Technologies used: React Native, Firebase."
+            "Launched a platform automating internship searches for students.",
+            "Integrated AI tools and cloud services to automate web scraping and email notifications."
+          ]
+        },
+        {
+          "title": "api4all",
+          "content": [
+            "Maintained an open-source project integrating models from top ML providers.",
+            "Conducted comprehensive comparisons to ensure optimal performance and functionality."
+          ]
+        },
+        {
+          "title": "Bull Bot",
+          "content": [
+            "Developed a full-stack chatbot answering queries across 1500+ USF websites.",
+            "Utilized Retrieval Augmented Generation (RAG) and other NLP techniques."
+          ]
+        },
+        {
+          "title": "TTL Dataset",
+          "content": [
+            "Created and published an open-source dataset of 3M tokens for training Talk To Listen.",
+            "Achieved nearly 2000 downloads monthly."
           ]
         }
       ]
@@ -63,15 +88,10 @@
       "title": "Publications",
       "subsections": [
         {
-          "title": "Research Paper A",
+          "title": "Global is Good, Local is Bad?",
           "content": [
-            "Published a paper on &apos;AI in Healthcare&apos; in the Journal of Medical Informatics, 2020."
-          ]
-        },
-        {
-          "title": "Research Paper B",
-          "content": [
-            "Co-authored a paper on &apos;Blockchain for Secure Transactions&apos; in the International Journal of Computer Science, 2021."
+            "Understanding brand bias in large language models.",
+            "Published in 2024, focusing on mitigating bias in LLMs."
           ]
         }
       ]
@@ -81,15 +101,56 @@
       "subsections": [
         {
           "title": "Programming Languages",
-          "content": ["JavaScript", "Python", "Java", "C++"]
+          "content": [
+            "Python",
+            "C",
+            "C++",
+            "C#",
+            "Java",
+            "JavaScript/TypeScript",
+            "HTML5",
+            "CSS",
+            "SQL"
+          ]
         },
         {
-          "title": "Frameworks and Libraries",
-          "content": ["React", "Node.js", "Express", "Django"]
+          "title": "Technologies and Tools",
+          "content": [
+            "MySQL",
+            "PostgreSQL",
+            "Git/GitHub",
+            "GitHub Actions",
+            "AWS",
+            "Google Cloud",
+            "Azure",
+            "Docker"
+          ]
         },
         {
-          "title": "Tools and Platforms",
-          "content": ["Git", "Docker", "Kubernetes", "AWS"]
+          "title": "Machine Learning and AI",
+          "content": [
+            "LangChain",
+            "Numpy",
+            "Pandas",
+            "Matplotlib",
+            "scikit-learn",
+            "PyTorch",
+            "TensorFlow",
+            "OpenAI"
+          ]
+        },
+        {
+          "title": "Web Development Technologies",
+          "content": [
+            "Node.js",
+            "Vite.js",
+            "Express.js",
+            "React.js",
+            "FastAPI",
+            "Bootstrap",
+            "Next.js",
+            "React Native"
+          ]
         }
       ]
     },
@@ -110,13 +171,9 @@
       "title": "Awards and Honors",
       "subsections": [
         {
-          "title": "Employee of the Year",
-          "content": ["Awarded Employee of the Year at Company A in 2020."]
-        },
-        {
-          "title": "Dean&apos;s List",
+          "title": "Dean's List",
           "content": [
-            "Consistently made the Dean&apos;s List during undergraduate studies at XYZ University."
+            "Consistently made the Dean's List during undergraduate studies at University of South Florida."
           ]
         }
       ]

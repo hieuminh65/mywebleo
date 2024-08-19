@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Section from "./_components/Section";
@@ -45,37 +46,48 @@ const CVPage: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.5 }}
           >
-            {["1-Page Resume", "Printed Version", "Full CV"].map(
-              (title, index) => (
-                <motion.div
-                  key={index}
-                  className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{
-                    duration: 0.6,
-                    ease: "easeOut",
-                    delay: 0.6 + index * 0.2,
-                  }}
+            {["Resume", "Printed Version", "Full CV"].map((title, index) => (
+              <motion.div
+                key={index}
+                className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  duration: 0.6,
+                  ease: "easeOut",
+                  delay: 0.6 + index * 0.2,
+                }}
+              >
+                <h3 className="text-xl font-semibold text-off-black mb-2">
+                  {title}
+                </h3>
+                <p className="text-dark-grey text-center mb-4">
+                  {title === "Resume"
+                    ? "A concise, one-page overview of my experience and skills."
+                    : title === "Printed Version"
+                    ? "A formatted, print-ready version of my resume."
+                    : "A detailed CV including all my projects, experience, and more."}
+                </p>
+                <Link
+                  href={
+                    title === "Resume"
+                      ? "/documents/resume.pdf"
+                      : title === "Printed Resume"
+                      ? "/documents/print.pdf"
+                      : "/documents/cv.pdf"
+                  }
+                  passHref
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <h3 className="text-xl font-semibold text-off-black mb-2">
-                    {title}
-                  </h3>
-                  <p className="text-dark-grey text-center mb-4">
-                    {title === "1-Page Resume"
-                      ? "A concise, one-page overview of my experience and skills."
-                      : title === "Printed Version"
-                      ? "A formatted, print-ready version of my resume."
-                      : "A detailed CV including all my projects, publications, and more."}
-                  </p>
                   <ShimmerButton>
-                    {title === "1-Page Resume" || title === "Full CV"
+                    {title === "Resume" || title === "Full CV"
                       ? "View PDF"
                       : "Download PDF"}
                   </ShimmerButton>
-                </motion.div>
-              )
-            )}
+                </Link>
+              </motion.div>
+            ))}
           </motion.div>
 
           {cvData.sections.map((section, index) => (
@@ -95,16 +107,7 @@ const CVPage: React.FC = () => {
                 onToggle={() => toggleSection(section.title)}
               >
                 {section.subsections.map((subsection, subIndex) => (
-                  <motion.div
-                    key={subIndex}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{
-                      duration: 0.6,
-                      ease: "easeOut",
-                      delay: 1.0 + subIndex * 0.2,
-                    }}
-                  >
+                  <div>
                     <Subsection
                       title={subsection.title}
                       content={subsection.content}
@@ -113,7 +116,7 @@ const CVPage: React.FC = () => {
                       time={subsection.time}
                       location={subsection.location}
                     />
-                  </motion.div>
+                  </div>
                 ))}
               </Section>
             </motion.div>

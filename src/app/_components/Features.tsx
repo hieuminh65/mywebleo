@@ -13,34 +13,39 @@ const projects = [
   {
     title: "Talk To Listen",
     description:
-      "A brief description of the project, its goals, and technologies used.",
+      "A web app with 1000+ users that leverages machine learning to enhance communication. Built using FastAPI and AWS.",
     image: "/portfolio/talktolisten.png",
   },
   {
     title: "JobsDreamer",
     description:
-      "A brief description of the project, its goals, and technologies used.",
+      "A platform that helps students find internships by automating job searches and notifications using AI tools.",
     image: "/portfolio/jobsdreamer.png",
+  },
+  {
+    title: "Publication: Brand Bias in LLMs",
+    description:
+      "Research publication on understanding and addressing brand bias in large language models.",
+    image: "/portfolio/publication.png", // Placeholder image, replace with actual if available
   },
   {
     title: "Bull Bot",
     description:
-      "A brief description of the project, its goals, and technologies used.",
+      "A chatbot app answering queries from 1500+ USF websites, integrating natural language processing.",
     image: "/portfolio/bullbot.png",
   },
   {
-    title: "Bull Bot 2",
+    title: "TTL Dataset",
     description:
-      "A brief description of the project, its goals, and technologies used.",
-    image: "/portfolio/bullbot.png",
+      "An open-source dataset of 3M tokens, created for training the Talk To Listen app, with 2000 downloads monthly.",
+    image: "/portfolio/ttldataset.png", // Placeholder image, replace with actual if available
   },
   {
-    title: "Bull Bot 3",
+    title: "api4all",
     description:
-      "A brief description of the project, its goals, and technologies used.",
-    image: "/portfolio/bullbot.png",
+      "An open-source project integrating models from top ML providers for comprehensive comparisons.",
+    image: "/portfolio/api4all.png", // Placeholder image, replace with actual if available
   },
-  // Add more projects as needed
 ];
 
 const FeaturedProjects: React.FC = () => {
@@ -57,17 +62,19 @@ const FeaturedProjects: React.FC = () => {
                 key={index}
                 className="relative flex-shrink-0 basis-full sm:basis-[48%] lg:basis-[30%]"
               >
-                <div className="overflow-hidden border rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow transform hover:-translate-y-1 transition-transform duration-300">
+                <div className="overflow-hidden border rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow transform hover:-translate-y-1 transition-transform duration-300 h-96">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-56 object-cover"
+                    className="w-full h-48 object-cover"
                   />
-                  <div className="p-4">
+                  <div className="p-4 h-48 flex flex-col justify-between">
                     <h3 className="text-xl font-medium text-off-black">
                       {project.title}
                     </h3>
-                    <p className="text-off-black mt-2">{project.description}</p>
+                    <p className="text-off-black mt-2 overflow-hidden overflow-ellipsis">
+                      {project.description}
+                    </p>
                   </div>
                 </div>
               </CarouselItem>

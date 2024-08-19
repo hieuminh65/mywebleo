@@ -8,44 +8,42 @@ import Timeline from "./_components/Timeline";
 const ExperiencePage: React.FC = () => {
   const experiences = [
     {
-      date: "2023 - Present",
-      title: "Software Engineer",
-      company: "Tech Corp",
+      date: "May 2024 - Present",
+      title: "Research Assistant",
+      company: "University of South Florida",
       description:
-        "Developing scalable web applications with a focus on cloud services and modern web technologies.",
-      techStack: ["React", "Node.js", "AWS", "TypeScript"],
+        "Conducted comprehensive research on bias in large language models, developed AI-based solutions for educational purposes.",
+      techStack: ["Python", "TensorFlow", "Keras", "AWS", "Flask"],
       bulletPoints: [
-        "Led the migration of legacy systems to cloud-based infrastructure.",
-        "Implemented a CI/CD pipeline, reducing deployment times by 40%.",
-        "Collaborated with cross-functional teams to define project requirements and milestones.",
+        "Engineered an AI personal assistant to optimize learning paths and course curricula.",
+        "Developed a specialized library in Python to evaluate datasets, reducing manual effort.",
+        "Collaborated with faculty and students to mitigate bias in LLMs.",
       ],
     },
     {
-      date: "2021 - 2023",
-      title: "Junior Developer",
-      company: "Startup Inc.",
+      date: "Sep 2023 - Dec 2023",
+      title: "AI/ML Software Engineer (Intern)",
+      company: "Resilience, Inc.",
       description:
-        "Worked on various frontend and backend projects, building features for the company&apos;s core product.",
-      techStack: ["JavaScript", "Express.js", "MongoDB"],
+        "Focused on building and deploying machine learning models for a mindfulness app aimed at enhancing emotional self-awareness.",
+      techStack: ["React Native", "Python", "AWS", "Flask", "Snyk"],
       bulletPoints: [
-        "Designed and implemented RESTful APIs using Express.js and MongoDB.",
-        "Improved application performance by 20% through code optimizations.",
-        "Worked closely with UX/UI designers to enhance user experience.",
+        "Engineered a machine learning API endpoint with Flask on AWS EC2, reducing latency by 80%.",
+        "Developed frontend features via React Native, enhancing user experience.",
+        "Applied proactive security measures, resulting in a 50% reduction in potential security breaches.",
       ],
     },
     {
-      date: "2020 - 2021",
-      title: "Intern Intern  Intern Intern Intern Intern Intern",
-      company: "Web Solutions Web Solutions Web Solutions",
+      date: "June 2023 - Aug 2023",
+      title: "AI/ML Developer (Intern)",
+      company: "Resilience, Inc.",
       description:
-        "Assisted in the development of client websites and learned the basics of web development.",
-      techStack: ["HTML", "CSS", "jQuery"],
+        "Worked on developing deep learning models and optimizing them for emotional prediction in a mindfulness app.",
+      techStack: ["Keras", "TensorFlow", "Numpy", "Pandas", "Python"],
       bulletPoints: [
-        "Contributed to the redesign of client websites, enhancing visual appeal and user experience.",
-        "Implemented responsive design features, increasing mobile traffic by 15%.",
-        "Assisted in the development and maintenance of e-commerce platforms.",
-        "Assisted in the development and maintenance of e-commerce platforms.",
-        "Assisted in the development and maintenance of e-commerce platforms.",
+        "Built a CNN model achieving 72% emotion classification accuracy.",
+        "Streamlined machine learning processes by automating data handling and model training.",
+        "Improved model training speed by 5.9x through parallelization.",
       ],
     },
   ];

@@ -21,10 +21,11 @@ const About: React.FC = () => {
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold text-off-black">About Me</h2>
           <p className="text-lg text-off-black mt-4">
-            I&apos;m Leo, a passionate software developer with a love for
-            creating innovative software. My journey in tech began with a
-            fascination for the latest AI and technology trends. I&apos;m always
-            looking for new challenges and opportunities to learn and grow.
+            I&apos;m Leo, a passionate software developer who loves creating
+            innovative software. My journey in tech began with a fascination for
+            AI and the latest technology trends. I enjoy learning new skills and
+            working on various projects, exploring different areas within the
+            field, and continuously expanding my knowledge.
           </p>
           <div className="mt-8 flex space-x-6 justify-center md:justify-start">
             <motion.div
