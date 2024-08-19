@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const Navbar: React.FC = () => {
@@ -13,9 +15,17 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 left-0 w-full shadow-md z-50 bg-white">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/" className="text-2xl font-bold text-off-black">
-          leo
-        </a>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={40}
+            height={40}
+            style={{ cursor: "pointer", borderRadius: "25%" }}
+            layout="fixed"
+          />
+          <span className="text-2xl font-bold text-off-black ml-2">leo</span>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8">
