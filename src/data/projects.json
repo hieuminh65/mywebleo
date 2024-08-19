@@ -1,0 +1,261 @@
+{
+  "impactfulDeployments": [
+    {
+      "title": "Talk To Listen",
+      "image": "/portfolio/ttl.png",
+      "description": "A SaaS app with 1000+ active users, enabling hands-free voice input and real-time speech and response with unique characters and voices.",
+      "techStack": [
+        "React Native",
+        "FastAPI",
+        "AWS",
+        "Azure",
+        "Python",
+        "Docker",
+        "GitHub Actions",
+        "Xcode",
+        "Android Emulator",
+        "Redux",
+        "Axios",
+        "Azure Virtual Network",
+        "NGINX",
+        "Firebase",
+        "Redis",
+        "SSL/TLS",
+        "AWS S3"
+      ],
+      "link": "/portfolio/talk-to-listen",
+      "users": 1000,
+      "website": "https://www.talktolisten.com",
+      "github": "https://github.com/Talktolisten",
+      "bulletPoints": [
+        "Built a SaaS app with 1000+ active users and secured $3000 in sponsorship from Microsoft, OpenAI, and AWS Startup Programs.",
+        "Created scalable distributed system architecture using Azure Application Gateway, Azure Load Balancer, Azure Virtual Machines.",
+        "Constructed a RESTful APIs server with FastAPI (Python) capable of handling 30+ APIs, and 3 machine learning endpoints, deployed on AWS EC2 using Docker, and integrated with GitHub Actions for automated CI/CD.",
+        "Created and published an open-source dataset of 3M tokens (nearly 2000 downloads monthly) and fine-tuned an LLM model using supervised learning, quantization method (QLoRA), and Pytorch, achieving an accuracy of 85%.",
+        "Continuously monitored model performance, retrained with new data, and state-of-the-art open-source model.",
+        "Developed, tested, and debugged the app using Xcode for iOS Simulation, and Android Emulator for Android Simulation.",
+        "Managed all stages from Figma-based design, front-end, database, API design, to iOS/Android deployment and back-end, encompassing more than 3000 lines of code.",
+        "Designed a comprehensive database schema, featuring 20+ schemas and integrating Azure Database PostgreSQL.",
+        "Devised a hands-free voice input feature with a voice detection algorithm and WebSocket connection.",
+        "Integrated Redux with React and Axios, to seamlessly manage API data fetching and state updates.",
+        "Configured Azure Virtual Network to securely connect virtual machines, enhancing the security and reliability.",
+        "Monitored system health using Azure Portal, employing monitoring tools to track performance, uptime, and resource utilization.",
+        "Deployed a machine learning model on Runpod’s serverless platform via Docker, reducing cost and enhancing dynamic scalability by 82%, and lowering the latency to 75%.",
+        "Applied Test-Driven Development (TDD) to create automated test scripts for the back pressure feature.",
+        "Created and optimized a voice detection algorithm to enable real-time speech and response.",
+        "Applied NGINX as a web server and reverse proxy, ensuring efficient traffic management, load balancing, security.",
+        "Utilized APIs best practices in client-server protocols, including appropriate HTTP methods, CRUD operations, Firebase for authentication, to design effective and secure communication between clients and servers.",
+        "Enforced Redis caching to improve database performance, resulting in a 30% reduction in query response time.",
+        "Utilized SSL/TLS protocols to establish secure connections, ensuring confidentiality of sensitive data during transmission.",
+        "Configured AWS Simple Storage Service (S3) for secure and scalable storage of image assets.",
+        "Utilized best practices in product lifecycle management, including clear requirements definition, application frameworks, version control, through testing, resulting in increased productivity across all phrases."
+      ]
+    },
+    {
+      "title": "JobsDreamer",
+      "image": "/portfolio/jobsdreamer.png",
+      "description": "A platform assisting students in finding internships, with automated web scraping and notifications. Sends daily updates of all jobs posted in the last 24 hours on the internet.",
+      "techStack": [
+        "AI Filtering",
+        "Python",
+        "AWS",
+        "Selenium",
+        "Security",
+        "ISP Proxy",
+        "Azure",
+        "Scrapy",
+        "GPT-4o",
+        "Google Gemini"
+      ],
+      "link": "/projects/jobsdreamer",
+      "users": 100,
+      "website": "https://www.jobsdreamer.com",
+      "github": "https://github.com/hieuminh65/jobsdreamer-report",
+      "bulletPoints": [
+        "Launched a platform that assists hundreds of students in finding internships, automatically sending them emails with newly all posted relevant internship opportunities on the internet within the last 24 hours.",
+        "Established a comprehensive job data processing pipeline utilizing latest AI tools, AWS EventBridge, AWS Step Functions, AWS Fargate, and AWS Lambda to automate daily web scraping, data preprocessing, and email notifications.",
+        "Integrated a GPT-4o and Google Gemini based categorizing and reviewing system to automatically classify and validate job data, ensuring high accuracy and relevance of categorized data.",
+        "Utilized residential proxy servers to manage IP rotation and avoid detection, enhancing the anonymity of the scraping process.",
+        "Automated user notifications by integrating DynamoDB and an email service to send processed job data directly to user emails.",
+        "Deployed containerized microservices for web scraping across multiple job sites, leveraging Python, Scrapy, and Selenium.",
+        "Automated a scalable and efficient Python pipeline with advanced LLMs to handle 1000+ of new raw data every day.",
+        "Implemented advanced cookie handling mechanisms to maintain session persistence and accurately simulate user interactions on target job sites.",
+        "Implemented rigorous data validation checks throughout the pipeline to maintain data integrity and consistency.",
+        "Planned a scalable infrastructure with containers in an AWS VPC setup, allowing for isolated operations within private subnets.",
+        "Drew clear and detailed diagrams to visualize the architecture and workflow of the data pipeline.",
+        "Set up CI/CD pipelines using GitHub Actions and AWS ECR, automating the build, test, and deployment processes."
+      ]
+    }
+  ],
+  "personalCreations": [
+    {
+      "title": "Bull Bot",
+      "image": "/portfolio/bullbot.png",
+      "description": "Developed a full-stack chatbot web app for the University of South Florida, utilizing natural language recognition to answer queries across 1500+ websites",
+      "techStack": [
+        "Flask",
+        "AWS",
+        "Vite.js",
+        "Express.js",
+        "Python",
+        "Langchain"
+      ],
+      "website": "https://www.bullbot.tech",
+      "github": "https://github.com/hieuminh65/bullbot",
+      "bulletPoints": [
+        "Pioneered a full stack chatbot web app answering queries across 1500+ Uni of South Florida websites with natural language recognition, providing precise sources for user clarity, especially for parents less adept at online searches.",
+        "Developed a Retrieval Augmented Generation (RAG) system, integrating Vector Store for efficient data management, significantly optimizing data weight, and expediting database information retrieval processes.",
+        "Maintained a scalable and fault-tolerant data storage solution, resulting in a 95% reduction in storage costs.",
+        "Employed Depth First Search Algorithm with Beautiful Soup for comprehensive web link scraping.",
+        "Analyzed and filtered 5000+ raw data files to filter 18% unnecessary content, improving the quality of the data.",
+        "Wrote Python scripts to automate data extraction, processing, and ingestion, increasing efficiency by 40%.",
+        "Orchestrated a microservice architecture leveraging Vite.js, Express.js/Node.js, and various AWS services such as AWS EC2, AWS API Gateway, AWS Lambda, achieving a significant server workload reduction.",
+        "Utilized opensource Hugging Face models and quantized Meta Llama2 with PyTorch, LoRA, PEFT, to reduce model’s weight and speed up model training, resulting in an 90% cost-saving on deployment."
+      ]
+    },
+    {
+      "title": "Leo Bot",
+      "image": "/portfolio/leobot.png",
+      "description": "A personal chatbot assistant built with Next.js and TypeScript, leveraging OpenAI Assistant API for Retrival Augmented Generation.",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "OpenAI Assistant API",
+        "Large Language Model (LLM)"
+      ],
+      "website": "https://leo-bot.vercel.app/",
+      "bulletPoints": [
+        "Developed a personal chatbot assistant using Next.js and TypeScript, integrating OpenAI Assistant API for enhanced conversational capabilities.",
+        "Implemented Retrieval Augmented Generation to improve response accuracy and relevance."
+      ]
+    },
+    {
+      "title": "api4all",
+      "image": "/portfolio/api4all.png",
+      "description": "An open-source project for integrating and comparing machine learning models from various providers.",
+      "techStack": [
+        "Python",
+        "Object-Oriented Programming",
+        "open-source",
+        "ML/LLM provider APIs"
+      ],
+      "website": "https://pypi.org/project/api4all/",
+      "github": "https://github.com/hieuminh65/api4all.git",
+      "bulletPoints": [
+        "Maintained an easy-to-use open-source project, integrating cutting-edge models from state-of-the-art providers and conducting comprehensive comparisons to ensure optimal performance and functionality."
+      ]
+    },
+    {
+      "title": "Role Play Opensource Collection",
+      "image": "/portfolio/roleplay.png",
+      "description": "An open-source dataset for training AI in role-playing apps and chatbots with 2000 monthly downloads.",
+      "techStack": [
+        "Hugging Face",
+        "open-source",
+        "Large Language Model (LLM)"
+      ],
+      "website": "https://huggingface.co/collections/hieunguyenminh/roleplay-llm-65aaaf61c2eef2ba117f4ecf",
+      "bulletPoints": [
+        "Published an open-source dataset of conversation examples, with 2000 monthly downloads.",
+        "Developed diverse characters to enhance dataset's use in role-playing apps and chatbots.",
+        "Trained AI models for Talk To Listen app, improving conversational capabilities.",
+        "Contributed to research in narrative generation and conversational AI.",
+        "Included direct quotes and typical responses to ensure dataset quality and relevance."
+      ]
+    },
+    {
+      "title": "Chatbot GPT Clone",
+      "image": "/portfolio/gpt-clone.png",
+      "description": "A dynamic ChatGPT clone built with React.js and Node.js, using OpenAI API for advanced conversational capabilities.",
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "OpenAI API",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "github": "https://github.com/hieuminh65/LeoChatGPT",
+      "bulletPoints": [
+        "Crafted a dynamic and interactive ChatGPT clone utilizing React.js and Node.js, integrating OpenAI API for advanced conversational capabilities, enhancing both functionality and user experience."
+      ]
+    },
+    {
+      "title": "Resume Keywords",
+      "image": "/portfolio/resume-keywords.png",
+      "description": "A Streamlit app generating optimized resume bullet points using Snowflake Arctic Large Language Model (LLM).",
+      "techStack": [
+        "Python",
+        "Streamlit",
+        "Snowflake",
+        "Large Language Model (LLM)",
+        "Replicate",
+        "Snowflake Arctic Large Language Model (LLM)"
+      ],
+      "website": "https://resumekeywords.streamlit.app/",
+      "github": "https://github.com/hieuminh65/ResumeHubs",
+      "bulletPoints": [
+        "Implemented a Streamlit app powered by Snowflake Artic LLM to generate optimized resume bullet points from keywords.",
+        "Utilized Snowflake Data Cloud to store, query, and managed large datasets, to ensure seamless data retrieval in the application."
+      ]
+    }
+  ],
+  "academicEndeavors": [
+    {
+      "title": "Car Repairing Design",
+      "image": "/images/car-repairing-design.png",
+      "description": "A database design project for car parts trading, built for a database systems course.",
+      "techStack": [
+        "Relational DBSM",
+        "Database Design",
+        "PostgreSQL",
+        "Streamlit",
+        "Python",
+        "Azure",
+        "SQL"
+      ],
+      "course": "Database Design",
+      "github": "https://github.com/hieuminh65/car-repairing-design",
+      "bulletPoints": [
+        "Developed a full-stack e-commerce platform for car parts trading, designing schemas and EER diagrams, and integrated a PostgreSQL database using psycopg2, enhancing data management efficiency.",
+        "Designed complex SQL queries, optimizing query performance through carefully indexing and query plan analysis."
+      ]
+    },
+    {
+      "title": "InCollege",
+      "image": "/images/incollege.png",
+      "description": "A college networking app developed in a software engineering course.",
+      "techStack": [
+        "Python",
+        "Scrum (Agile)",
+        "Object Oriented Programming",
+        "Git/GitHub",
+        "pytest"
+      ],
+      "course": "Intro to Software Engineering",
+      "github": "https://github.com/luisan08/inCollegeProject",
+      "bulletPoints": [
+        "Worked with an Agile/Scrum team to develop a college networking app, leveraging Agile methodologies to streamline development, ensure adaptability to evolving requirements and meet project milestones efficiently.",
+        "Implemented a modular and object-oriented architecture facilitating independent development, reusability, scalability, and efficient collaboration among team members.",
+        "Conducted 15+ unit test and integration test cases every week, warranting the functionality of new features."
+      ]
+    },
+    {
+      "title": "Stock Data",
+      "image": "/images/stock-data.png",
+      "description": "A software development system project visualizing stock data.",
+      "techStack": [
+        "C#",
+        ".NET",
+        "Visual Studio",
+        "Object Oriented Programming",
+        "Git/Github"
+      ],
+      "course": "Software Development System",
+      "github": "https://github.com/hieuminh65/Stock-Project3",
+      "bulletPoints": [
+        "Orchestrated the creation of a C# .NET Windows Forms application to deliver stock data visualization and management through GUI design and object-oriented class implementation in Visual Studio."
+      ]
+    }
+  ]
+}

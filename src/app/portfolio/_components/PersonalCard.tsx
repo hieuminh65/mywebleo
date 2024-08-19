@@ -25,14 +25,14 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
 
   return (
     <div
-      className="relative bg-off-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between"
+      className="relative bg-off-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between"
       onClick={handleOutsideClick}
       style={{ minHeight: "100%" }} // Ensures all cards stretch to the same height
     >
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-48 object-cover"
+        className="w-full h-48 object-cover rounded-lg shadow-md"
       />
       <div className="p-6 flex-grow flex flex-col justify-between">
         <div className="mb-4 flex-grow">
@@ -111,7 +111,7 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
       {showDetails &&
         project.bulletPoints &&
         project.bulletPoints.length > 0 && (
-          <div className="absolute inset-0 bg-gray-100 bg-opacity-95 p-4 flex flex-col justify-center items-start">
+          <div className="absolute inset-0 bg-gray-100 bg-opacity-95 p-4 flex flex-col justify-center items-start overflow-y-auto scrollbar-hide">
             <h4 className="text-lg font-semibold mb-3">Highlights:</h4>
             <ul className="list-disc list-inside text-off-black">
               {project.bulletPoints.map((point: string, index: number) => (

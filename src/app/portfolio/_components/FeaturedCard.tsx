@@ -35,9 +35,9 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-64 object-cover"
+          className="w-full h-64 object-cover rounded-xl shadow-md"
         />
-        <div className="absolute top-0 left-0 bg-off-black text-off-white text-sm px-4 py-2">
+        <div className="absolute top-0 right-0 bg-highlight-orange text-white text-sm px-4 py-2 rounded-bl-lg shadow-lg">
           {project.users}+ Users
         </div>
       </div>
@@ -118,7 +118,7 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
       {showDetails &&
         project.bulletPoints &&
         project.bulletPoints.length > 0 && (
-          <div className="absolute inset-0 bg-gray-100 bg-opacity-95 p-6 flex flex-col justify-center items-start">
+          <div className="absolute inset-0 bg-gray-100 bg-opacity-95 p-6 flex flex-col justify-center items-start overflow-y-auto scrollbar-hide">
             <h4 className="text-lg font-semibold mb-3">Highlights:</h4>
             <ul className="list-disc list-inside text-off-black">
               {project.bulletPoints.map((point: string, index: number) => (
