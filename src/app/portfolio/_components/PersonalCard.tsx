@@ -34,9 +34,9 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
         alt={project.title}
         className="w-full h-48 object-cover"
       />
-      <div className="p-4 flex-grow flex flex-col justify-between">
+      <div className="p-6 flex-grow flex flex-col justify-between">
         <div className="mb-4 flex-grow">
-          <h3 className="text-lg font-semibold text-off-black">
+          <h3 className="text-xl font-semibold text-off-black">
             {project.title}
           </h3>
           <p className="text-dark-grey mt-2">{project.description}</p>
@@ -112,7 +112,7 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
         project.bulletPoints &&
         project.bulletPoints.length > 0 && (
           <div className="absolute inset-0 bg-gray-100 bg-opacity-95 p-4 flex flex-col justify-center items-start">
-            <h4 className="text-lg font-semibold mb-3">Key Highlights:</h4>
+            <h4 className="text-lg font-semibold mb-3">Highlights:</h4>
             <ul className="list-disc list-inside text-off-black">
               {project.bulletPoints.map((point: string, index: number) => (
                 <li key={index}>{point}</li>

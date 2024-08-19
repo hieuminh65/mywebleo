@@ -48,19 +48,19 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
           </h3>
           <p className="text-dark-grey mt-2">{project.description}</p>
           <div className="mt-4 flex flex-wrap">
-            {visibleTags.map((tech: any, index: any) => (
+            {visibleTags.map((tech: string, index: number) => (
               <span
                 key={index}
-                className="bg-gray-200 text-off-black text-xs font-medium mr-2 mb-2 px-2 py-1 rounded-full"
+                className="bg-gray-200 text-off-black text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
               >
                 {tech}
               </span>
             ))}
             {showAll &&
-              hiddenTags.map((tech: any, index: any) => (
+              hiddenTags.map((tech: string, index: number) => (
                 <span
                   key={index + visibleTagsCount}
-                  className="bg-gray-200 text-off-black text-xs font-medium mr-2 mb-2 px-2 py-1 rounded-full"
+                  className="bg-gray-200 text-off-black text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
                 >
                   {tech}
                 </span>
@@ -119,7 +119,7 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
         project.bulletPoints &&
         project.bulletPoints.length > 0 && (
           <div className="absolute inset-0 bg-gray-100 bg-opacity-95 p-6 flex flex-col justify-center items-start">
-            <h4 className="text-lg font-semibold mb-3">Key Highlights:</h4>
+            <h4 className="text-lg font-semibold mb-3">Highlights:</h4>
             <ul className="list-disc list-inside text-off-black">
               {project.bulletPoints.map((point: string, index: number) => (
                 <li key={index}>{point}</li>
