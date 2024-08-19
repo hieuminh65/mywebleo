@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Section from "./_components/Section";
@@ -38,57 +39,84 @@ const CVPage: React.FC = () => {
           <div className="w-full h-1 bg-highlight-orange mb-16"></div>
 
           {/* Document Section */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center">
-              <h3 className="text-xl font-semibold text-off-black mb-2">
-                1-Page Resume
-              </h3>
-              <p className="text-dark-grey text-center mb-4">
-                A concise, one-page overview of my experience and skills.
-              </p>
-              <ShimmerButton>View PDF</ShimmerButton>
-            </div>
-
-            <div className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center">
-              <h3 className="text-xl font-semibold text-off-black mb-2">
-                Printed Version
-              </h3>
-              <p className="text-dark-grey text-center mb-4">
-                A formatted, print-ready version of my resume.
-              </p>
-              <ShimmerButton>Download PDF</ShimmerButton>
-            </div>
-
-            <div className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center">
-              <h3 className="text-xl font-semibold text-off-black mb-2">
-                Full CV
-              </h3>
-              <p className="text-dark-grey text-center mb-4">
-                A detailed CV including all my projects, publications, and more.
-              </p>
-              <ShimmerButton>View PDF</ShimmerButton>
-            </div>
-          </div>
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.7, ease: "easeOut", delay: 0.5 }}
+          >
+            {["1-Page Resume", "Printed Version", "Full CV"].map(
+              (title, index) => (
+                <motion.div
+                  key={index}
+                  className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{
+                    duration: 0.6,
+                    ease: "easeOut",
+                    delay: 0.6 + index * 0.2,
+                  }}
+                >
+                  <h3 className="text-xl font-semibold text-off-black mb-2">
+                    {title}
+                  </h3>
+                  <p className="text-dark-grey text-center mb-4">
+                    {title === "1-Page Resume"
+                      ? "A concise, one-page overview of my experience and skills."
+                      : title === "Printed Version"
+                      ? "A formatted, print-ready version of my resume."
+                      : "A detailed CV including all my projects, publications, and more."}
+                  </p>
+                  <ShimmerButton>
+                    {title === "1-Page Resume" || title === "Full CV"
+                      ? "View PDF"
+                      : "Download PDF"}
+                  </ShimmerButton>
+                </motion.div>
+              )
+            )}
+          </motion.div>
 
           {cvData.sections.map((section, index) => (
-            <Section
+            <motion.div
               key={index}
-              title={section.title}
-              isOpen={openSection === section.title}
-              onToggle={() => toggleSection(section.title)}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.6,
+                ease: "easeOut",
+                delay: 0.8 + index * 0.2,
+              }}
             >
-              {section.subsections.map((subsection, subIndex) => (
-                <Subsection
-                  key={subIndex}
-                  title={subsection.title}
-                  content={subsection.content}
-                  isOpen={openSubsection === subsection.title}
-                  onToggle={() => toggleSubsection(subsection.title)}
-                  time={subsection.time}
-                  location={subsection.location}
-                />
-              ))}
-            </Section>
+              <Section
+                title={section.title}
+                isOpen={openSection === section.title}
+                onToggle={() => toggleSection(section.title)}
+              >
+                {section.subsections.map((subsection, subIndex) => (
+                  <motion.div
+                    key={subIndex}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{
+                      duration: 0.6,
+                      ease: "easeOut",
+                      delay: 1.0 + subIndex * 0.2,
+                    }}
+                  >
+                    <Subsection
+                      title={subsection.title}
+                      content={subsection.content}
+                      isOpen={openSubsection === subsection.title}
+                      onToggle={() => toggleSubsection(subsection.title)}
+                      time={subsection.time}
+                      location={subsection.location}
+                    />
+                  </motion.div>
+                ))}
+              </Section>
+            </motion.div>
           ))}
         </div>
       </main>
