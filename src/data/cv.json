@@ -5,10 +5,18 @@
       "subsections": [
         {
           "title": "University of South Florida",
+          "time": "Aug 2021 - Expected 2026",
+          "location": "Tampa, Fl",
           "content": [
-            "Bachelor of Science in Computer Science, Expected May 2025.",
+            "Bachelor’s / Master’s pathways in Computer Science.",
             "GPA: 3.8/4.0."
           ]
+        },
+        {
+          "title": "Nguyen Tat Thanh High School",
+          "time": "Aug 2018 - May 2021",
+          "location": "Ha Noi, Vietnam",
+          "content": ["High School Diploma.", "GPA: 9.0/10"]
         }
       ]
     },
@@ -20,8 +28,11 @@
           "time": "May 2024 - Present",
           "location": "University of South Florida",
           "content": [
-            "Conducted comprehensive research on bias in large language models.",
-            "Developed an AI personal assistant for learning paths and school course curricula."
+            "Conducted comprehensive research on bias across many categories, such as age or gender, within Large Language Model (LLM).",
+            "Built a specialized library in Python for systematic evaluation of 100,000 datasets in LLMs, significantly reducing manual effort.",
+            "Collaborated with a team of researchers on studies focusing on mitigating bias in human health records using machine learning.",
+            "Partnered with USF students and faculty to develop an AI personal assistant for learning paths and school course curricula.",
+            "Researched techniques to optimize LLM code generation for complex data structures, algorithms, competitive programming."
           ]
         },
         {
@@ -29,8 +40,13 @@
           "time": "Sep 2023 - Dec 2023",
           "location": "Resilience, Inc.",
           "content": [
-            "Engineered a mindfulness app with enhanced emotional self-awareness.",
-            "Implemented a machine learning API endpoint on AWS EC2, reducing latency by 80%."
+            "Technologies: AWS, React Native, Flask, Synk, Figma, Linux, Python.",
+            "Engineered a mindfulness app, resulting in enhanced emotional self-awareness across diverse user demographics.",
+            "Executed design prototypes using Figma, further developing 5+ frontend features via React Native.",
+            "Implemented a machine learning API endpoint with Flask (Python) on AWS EC2, leading to an 80% reduction in response latency.",
+            "Implemented proactive security measures through penetration testing methodologies to fortify web applications and network infrastructure, resulting in a 50% reduction in potential security breaches and associated risks.",
+            "Proactively secured the app by employing Snyk, addressing 100% of identified code vulnerabilities.",
+            "Coordinated with cross-functional teams, include engineering and design for smooth production releases."
           ]
         },
         {
@@ -38,8 +54,26 @@
           "time": "June 2023 - Aug 2023",
           "location": "Resilience, Inc.",
           "content": [
-            "Built a CNN model achieving 72% emotion classification accuracy.",
-            "Streamlined machine learning processes with automated pipelines."
+            "Technologies: Keras, Numpy, Pandas, sklearn, matplotlib, TensorFlow, Python.",
+            "Researched and selected deep learning/machine learning models, including CNN, RNN, XGBoost, and MLP, for effectively user emotions prediction based on through benchmarking and rigorous testing.",
+            "Built a CNN model using Keras (TensorFlow) from scratch, achieving a 72% emotion classification accuracy.",
+            "Streamlined machine learning processes by creating a pipeline for automated data handling and model training.",
+            "Finetuned Whisper by multiprocessing through parallelization for CPUs to speed up translation time by 5.9x.",
+            "Guided a team of five interns by writing a comprehensive documentation and hosting weekly feedback sessions, ensuring rapid tool mastery, addressing queries, code reviewing and bolstering overall progress and team synergy."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leadership Experience",
+      "subsections": [
+        {
+          "title": "Software Lead",
+          "time": "Nov 2023 - Present",
+          "location": "Association of Computing Machinery (ACM)",
+          "content": [
+            "Leading a team project of 8 by creating detailed project plans, functional requirements, and documentation.",
+            "Hosting technical workshops and mentoring other members in preparing and delivering their workshops, fostering a collaborative learning environment."
           ]
         }
       ]
@@ -50,36 +84,109 @@
         {
           "title": "Talk To Listen",
           "content": [
-            "A SaaS app with 1000+ active users and $3000 in sponsorship from Microsoft, OpenAI, and AWS.",
-            "Built a scalable distributed system and deployed machine learning models on AWS."
-          ]
+            "Talk To Listen (talktolisten.com) | FastAPI, Python, React Native, JavaScript, REST APIs, SQL, Firebase, Redux, CI/CD, AWS, Azure.",
+            "Built a SaaS app with 1000+ active users and secured $3000 in sponsorship from Microsoft, OpenAI, and AWS Startup Programs.",
+            "Created scalable distributed system architecture using Azure Application Gateway, Azure Load Balancer, Azure Virtual Machines.",
+            "Constructed a RESTful APIs server with FastAPI (Python) capable of handling 30+ APIs, and 3 machine learning endpoints, deployed on AWS EC2 using Docker, and integrated with GitHub Actions for automated CI/CD.",
+            "Created and published an open-source dataset of 3M tokens (nearly 2000 downloads monthly) and fine-tuned an LLM model using supervised learning, quantization method (QLoRA), and Pytorch, achieving an accuracy of 85%.",
+            "Continuously monitored model performance, retrained with new data, and state-of-the-art open-source model.",
+            "Developed, tested, and debugged the app using Xcode for iOS Simulation, and Android Emulator for Android Simulation.",
+            "Managed all stages from Figma-based design, front-end, database, API design, to iOS/Android deployment and back-end, encompassing more than 3000 lines of code.",
+            "Designed a comprehensive database schema, featuring 20+ schemas and integrating Azure Database PostgreSQL.",
+            "Devised a hands-free voice input feature with a voice detection algorithm and WebSocket connection.",
+            "Integrated Redux with React and Axios, to seamlessly manage API data fetching and state updates.",
+            "Configured Azure Virtual Network to securely connect virtual machines, enhancing the security and reliability.",
+            "Monitored system health using Azure Portal, employing monitoring tools to track performance, uptime, and resource utilization.",
+            "Deployed a machine learning model on Runpod’s serverless platform via Docker, reducing cost and enhancing dynamic scalability by 82%, and lowering the latency to 75%.",
+            "Applied Test-Driven Development (TDD) to create automated test scripts for the back pressure feature.",
+            "Created and optimized a voice detection algorithm to enable real-time speech and response.",
+            "Applied NGINX as a web server and reverse proxy, ensuring efficient traffic management, load balancing, security.",
+            "Utilized APIs best practices in client-server protocols, including appropriate HTTP methods, CRUD operations, Firebase for authentication, to design effective and secure communication between clients and servers.",
+            "Enforced Redis caching to improve database performance, resulting in a 30% reduction in query response time.",
+            "Utilized SSL/TLS protocols to establish secure connections, ensuring confidentiality of sensitive data during transmission.",
+            "Configured AWS Simple Storage Service (S3) for secure and scalable storage of image assets.",
+            "Utilized best practices in product lifecycle management, including clear requirements definition, application frameworks, version control, through testing, resulting in increased productivity across all phrases."
+          ],
+          "link": "https://www.talktolisten.com"
         },
         {
           "title": "JobsDreamer",
           "content": [
-            "Launched a platform automating internship searches for students.",
-            "Integrated AI tools and cloud services to automate web scraping and email notifications."
-          ]
+            "JobsDreamer (jobsdreamer.com) | Scrapy, Selenium, Python, Google Gemini 1M API, GPT4o, Llama3, Proxy, Azure, AWS, Next.js, TypeScript.",
+            "Launched a platform that assists hundreds of students in finding internships, automatically sending them emails with newly all posted relevant internship opportunities on the internet within the last 24 hours.",
+            "Established a comprehensive job data processing pipeline utilizing latest AI tools, AWS EventBridge, AWS Step Functions, AWS Fargate, and AWS Lambda to automate daily web scraping, data preprocessing, and email notifications.",
+            "Integrated a GPT-4o and Google Gemini based categorizing and reviewing system to automatically classify and validate job data, ensuring high accuracy and relevance of categorized data.",
+            "Utilized residential proxy servers to manage IP rotation and avoid detection, enhancing the anonymity of the scraping process.",
+            "Automated user notifications by integrating DynamoDB and an email service to send processed job data directly to user emails.",
+            "Deployed containerized microservices for web scraping across multiple job sites, leveraging Python, Scrapy, and Selenium.",
+            "Automated a scalable and efficient Python pipeline with advanced LLMs to handle 1000+ of new raw data every day.",
+            "Implemented advanced cookie handling mechanisms to maintain session persistence and accurately simulate user interactions on target job sites.",
+            "Implemented rigorous data validation checks throughout the pipeline to maintain data integrity and consistency.",
+            "Planned a scalable infrastructure with containers in an AWS VPC setup, allowing for isolated operations within private subnets.",
+            "Drew clear and detailed diagrams to visualize the architecture and workflow of the data pipeline.",
+            "Set up CI/CD pipelines using GitHub Actions and AWS ECR, automating the build, test, and deployment processes."
+          ],
+          "link": "https://www.jobsdreamer.com"
+        },
+        {
+          "title": "BullBot",
+          "content": [
+            "BullBot (bullbot.tech) | Flask, AWS, Vite.js, Express.js, Node.js, Pytorch, Langchain, Python.",
+            "Pioneered a full stack chatbot web app answering queries across 1500+ Uni of South Florida websites with natural language recognition, providing precise sources for user clarity, especially for parents less adept at online searches.",
+            "Developed a Retrieval Augmented Generation (RAG) system, integrating Vector Store for efficient data management, significantly optimizing data weight, and expediting database information retrieval processes.",
+            "Maintained a scalable and fault-tolerant data storage solution, resulting in a 95% reduction in storage costs.",
+            "Employed Depth First Search Algorithm with Beautiful Soup for comprehensive web link scraping.",
+            "Analyzed and filtered 5000+ raw data files to filter 18% unnecessary content, improving the quality of the data.",
+            "Wrote Python scripts to automate data extraction, processing, and ingestion, increasing efficiency by 40%.",
+            "Orchestrated a microservice architecture leveraging Vite.js, Express.js/Node.js, and various AWS services such as AWS EC2, AWS API Gateway, AWS Lambda, achieving a significant server workload reduction.",
+            "Utilized opensource Hugging Face models and quantized Meta Llama2 with PyTorch, LoRA, PEFT, to reduce model’s weight and speed up model training, resulting in an 90% cost-saving on deployment."
+          ],
+          "link": "https://www.bullbot.tech"
         },
         {
           "title": "api4all",
           "content": [
-            "Maintained an open-source project integrating models from top ML providers.",
-            "Conducted comprehensive comparisons to ensure optimal performance and functionality."
+            "Python, ML/LLM provider, ML/LLM API, Object Oriented Programming, open-source.",
+            "Maintained an easy-to-use open-source project, integrating cutting-edge models from state-of-the-art providers and conducting comprehensive comparisons to ensure optimal performance and functionality."
           ]
         },
         {
-          "title": "Bull Bot",
+          "title": "InCollege",
           "content": [
-            "Developed a full-stack chatbot answering queries across 1500+ USF websites.",
-            "Utilized Retrieval Augmented Generation (RAG) and other NLP techniques."
+            "Python, Scrum (Agile), Object Oriented Programming, Git/GitHub, pytest.",
+            "Worked with an Agile/Scrum team to develop a college networking app, leveraging Agile methodologies to streamline development, ensure adaptability to evolving requirements and meet project milestones efficiently.",
+            "Implemented a modular and object-oriented architecture facilitating independent development, reusability, scalability, and efficient collaboration among team members.",
+            "Conducted 15+ unit test and integration test cases every week, warranting the functionality of new features."
           ]
         },
         {
-          "title": "TTL Dataset",
+          "title": "Chatbot GPT",
           "content": [
-            "Created and published an open-source dataset of 3M tokens for training Talk To Listen.",
-            "Achieved nearly 2000 downloads monthly."
+            "React.js, HTML, CSS, JavaScript, Node.js, OpenAI API",
+            "Crafted a dynamic and interactive ChatGPT clone utilizing React.js and Node.js, integrating OpenAI API for advanced conversational capabilities, enhancing both functionality and user experience."
+          ]
+        },
+        {
+          "title": "Car Repairing System Design",
+          "content": [
+            "Python, Relational DBSM, PostgreSQL, Streamlit, Database Design, Azure, SQL",
+            "Developed a full-stack e-commerce platform for car parts trading, designing schemas and EER diagrams, and integrated a PostgreSQL database using psycopg2, enhancing data management efficiency.",
+            "Designed complex SQL queries, optimizing query performance through carefully indexing and query plan analysis."
+          ]
+        },
+        {
+          "title": "Stock Data",
+          "content": [
+            "C# .NET, Visual Studio, Object Oriented Programming, Git/Github",
+            "Orchestrated the creation of a C# .NET Windows Forms application to deliver stock data visualization and management through GUI design and object-oriented class implementation in Visual Studio."
+          ]
+        },
+        {
+          "title": "Resume Keywords",
+          "content": [
+            "Python, Streamlit, Snowflake, Snowflake Arctic LLM, Replicate, Streamlit",
+            "Implemented a Streamlit app powered by Snowflake Artic LLM to generate optimized resume bullet points from keywords.",
+            "Utilized Snowflake Data Cloud to store, query, and managed large datasets, to ensure seamless data retrieval in the application."
           ]
         }
       ]
@@ -88,11 +195,12 @@
       "title": "Publications",
       "subsections": [
         {
-          "title": "Global is Good, Local is Bad?",
+          "title": "Global is Good, Local is Bad?\": Understanding Brand Bias in LLMs",
           "content": [
             "Understanding brand bias in large language models.",
-            "Published in 2024, focusing on mitigating bias in LLMs."
-          ]
+            "Published in 2024, focusing on examining bias in LLMs."
+          ],
+          "link": "https://arxiv.org/abs/2406.13997"
         }
       ]
     },
@@ -102,54 +210,25 @@
         {
           "title": "Programming Languages",
           "content": [
-            "Python",
-            "C",
-            "C++",
-            "C#",
-            "Java",
-            "JavaScript/TypeScript",
-            "HTML5",
-            "CSS",
-            "SQL"
+            "Python, C, C++, C#, Java, JavaScript/TypeScript, HTML5, CSS, SQL."
           ]
         },
         {
           "title": "Technologies and Tools",
           "content": [
-            "MySQL",
-            "PostgreSQL",
-            "Git/GitHub",
-            "GitHub Actions",
-            "AWS",
-            "Google Cloud",
-            "Azure",
-            "Docker"
+            "MySQL, PostgreSQL, NoSQL, Git/GitHub, GitHub Actions, AWS, Google Cloud, Azure, Docker."
           ]
         },
         {
           "title": "Machine Learning and AI",
           "content": [
-            "LangChain",
-            "Numpy",
-            "Pandas",
-            "Matplotlib",
-            "scikit-learn",
-            "PyTorch",
-            "TensorFlow",
-            "OpenAI"
+            "LangChain, Numpy, Pandas, Matplotlib, scikit-learn, PyTorch, TensorFlow, OpenAI."
           ]
         },
         {
           "title": "Web Development Technologies",
           "content": [
-            "Node.js",
-            "Vite.js",
-            "Express.js",
-            "React.js",
-            "FastAPI",
-            "Bootstrap",
-            "Next.js",
-            "React Native"
+            "Node.js, Vite.js, Express.js, React.js, FastAPI, Bootstrap, Next.js, React Native, Flask, Tailwind CSS."
           ]
         }
       ]
@@ -158,12 +237,80 @@
       "title": "Certifications",
       "subsections": [
         {
-          "title": "AWS Certified Solutions Architect",
-          "content": ["Earned in 2020.", "Valid until 2023."]
+          "title": "C++ for Programmers Course",
+          "location": "Codecademy",
+          "time": "Jul 2023",
+          "content": [
+            "Course on C++ programming for programmers.",
+            "Skills: Object-Oriented Programming (OOP) · C++"
+          ]
         },
         {
-          "title": "Certified Kubernetes Administrator",
-          "content": ["Earned in 2021.", "Valid until 2024."]
+          "title": "Introduction to Cybersecurity Course",
+          "location": "Codecademy",
+          "time": "Jun 2023",
+          "content": [
+            "An introductory course covering the basics of cybersecurity.",
+            "Skills: Cybersecurity · Network Security · Cryptography"
+          ]
+        },
+        {
+          "title": "Machine Learning/AI Engineering Foundations Skill Path",
+          "location": "Codecademy",
+          "time": "Mar 2023",
+          "content": [
+            "A foundational course on machine learning and AI engineering.",
+            "Skills: Machine Learning Algorithms"
+          ]
+        },
+        {
+          "title": "Learn HTML Course",
+          "location": "Codecademy",
+          "time": "Jan 2023",
+          "content": ["A beginner's course on HTML for web development."]
+        },
+        {
+          "title": "Learn Java Course",
+          "location": "Codecademy",
+          "time": "Jan 2023",
+          "content": ["A beginner's course on Java programming."]
+        },
+        {
+          "title": "Learning Git and GitHub",
+          "location": "LinkedIn",
+          "time": "Nov 2022",
+          "content": ["A course on version control using Git and GitHub."]
+        },
+        {
+          "title": "Microsoft Office Specialist: Word 2003",
+          "location": "Microsoft",
+          "time": "Jun 2020",
+          "content": ["Certification for proficiency in Microsoft Word 2003."]
+        },
+        {
+          "title": "Microsoft Office Specialist: Powerpoint 2003 (MOUS)",
+          "location": "Microsoft",
+          "time": "Jul 2019",
+          "content": [
+            "Certification for proficiency in Microsoft PowerPoint 2003."
+          ]
+        },
+        {
+          "title": "Cloud Essentials",
+          "location": "CodeLearn.io",
+          "time": "",
+          "content": [
+            "A course on the fundamentals of cloud computing.",
+            "Skills: Amazon Web Services (AWS) · Cloud Computing"
+          ]
+        },
+        {
+          "title": "Design Thinking",
+          "location": "LinkedIn",
+          "time": "",
+          "content": [
+            "A course on the principles and practices of design thinking."
+          ]
         }
       ]
     },
@@ -172,9 +319,22 @@
       "subsections": [
         {
           "title": "Dean's List",
+          "location": "University of South Florida",
           "content": [
-            "Consistently made the Dean's List during undergraduate studies at University of South Florida."
+            "Dean's List during undergraduate studies at University of South Florida."
           ]
+        },
+        {
+          "title": "Global Experience Scholarship",
+          "time": "Sep 2022",
+          "location": "Judy Genshaft Honors College - USF",
+          "content": ["Global Experience Scholarship"]
+        },
+        {
+          "title": "Exempt Green and Gold UG OSS",
+          "time": "Jan 2020",
+          "location": "University of South Florida",
+          "content": ["Exempt Green and Gold UG OSS"]
         }
       ]
     },
@@ -182,15 +342,11 @@
       "title": "Volunteer Experience",
       "subsections": [
         {
-          "title": "Tech Mentor",
+          "title": "Technical Assistant",
+          "time": "Jul 2023 - Present",
+          "location": "AMRoC Fab Lab",
           "content": [
-            "Volunteered as a tech mentor for underprivileged students, teaching basic programming skills."
-          ]
-        },
-        {
-          "title": "Community Service",
-          "content": [
-            "Participated in various community service activities, including organizing coding bootcamps."
+            "Providing education guidance and support for children and students in K-12 in learning programming languages, 3D printing, and building robots."
           ]
         }
       ]

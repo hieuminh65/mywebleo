@@ -46,7 +46,7 @@ const CVPage: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.5 }}
           >
-            {["Resume", "Printed Version", "Full CV"].map((title, index) => (
+            {["Resume", "Printed Resume", "Full CV"].map((title, index) => (
               <motion.div
                 key={index}
                 className="bg-off-white p-6 rounded-lg shadow-md flex flex-col items-center"
@@ -64,7 +64,7 @@ const CVPage: React.FC = () => {
                 <p className="text-dark-grey text-center mb-4">
                   {title === "Resume"
                     ? "A concise, one-page overview of my experience and skills."
-                    : title === "Printed Version"
+                    : title === "Printed Resume"
                     ? "A formatted, print-ready version of my resume."
                     : "A detailed CV including all my projects, experience, and more."}
                 </p>
@@ -119,6 +119,7 @@ const CVPage: React.FC = () => {
                           ? subsection.location
                           : undefined
                       }
+                      link={"link" in subsection ? subsection.link : undefined}
                     />
                   </div>
                 ))}

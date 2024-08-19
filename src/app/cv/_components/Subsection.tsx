@@ -1,8 +1,13 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { ChevronDownIcon, ChevronRightIcon } from "@radix-ui/react-icons";
-import { CalendarIcon, SewingPinIcon } from "@radix-ui/react-icons"; // Assuming you have these icons
+import {
+  CalendarIcon,
+  SewingPinIcon,
+  ExternalLinkIcon,
+} from "@radix-ui/react-icons"; // Assuming you have these icons
 
 interface SubsectionProps {
   title: string;
@@ -11,6 +16,7 @@ interface SubsectionProps {
   onToggle: () => void;
   time?: string;
   location?: string;
+  link?: string;
 }
 
 const Subsection: React.FC<SubsectionProps> = ({
@@ -20,6 +26,7 @@ const Subsection: React.FC<SubsectionProps> = ({
   onToggle,
   time,
   location,
+  link,
 }) => {
   return (
     <div className="mb-4">
@@ -41,6 +48,18 @@ const Subsection: React.FC<SubsectionProps> = ({
                 <SewingPinIcon className="w-4 h-4 mr-2" />
                 <span>{location}</span>
               </div>
+            )}
+            {link && (
+              <Link
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                passHref
+                className="flex items-center text-dark-grey"
+              >
+                <ExternalLinkIcon className="w-4 h-4 mr-2" />
+                <span>{link}</span>
+              </Link>
             )}
           </div>
         </div>
