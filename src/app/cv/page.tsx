@@ -107,14 +107,18 @@ const CVPage: React.FC = () => {
                 onToggle={() => toggleSection(section.title)}
               >
                 {section.subsections.map((subsection, subIndex) => (
-                  <div>
+                  <div key={subIndex}>
                     <Subsection
                       title={subsection.title}
                       content={subsection.content}
                       isOpen={openSubsection === subsection.title}
                       onToggle={() => toggleSubsection(subsection.title)}
-                      time={subsection.time}
-                      location={subsection.location}
+                      time={"time" in subsection ? subsection.time : undefined}
+                      location={
+                        "location" in subsection
+                          ? subsection.location
+                          : undefined
+                      }
                     />
                   </div>
                 ))}
