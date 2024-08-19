@@ -17,7 +17,7 @@ const PortfolioPage: React.FC = () => {
       description:
         "A highly scalable e-commerce platform with 1000+ users. Let user talk to hundereds of languages. Published on AWS and Azure.",
       techStack: ["React", "Node.js", "AWS", "Azure", "Python", "FastAPI"],
-      link: "/projects/project-alpha",
+      link: "/portfolio/talk-to-listen",
       users: 1500,
       website: "https://example.com",
       github: "https://github.com/example/project-alpha",
