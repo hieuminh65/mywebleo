@@ -203,7 +203,6 @@
   "academicEndeavors": [
     {
       "title": "Car Repairing Design",
-      "image": "/images/car-repairing-design.png",
       "description": "A database design project for car parts trading, built for a database systems course.",
       "techStack": [
         "Relational DBSM",
@@ -223,7 +222,6 @@
     },
     {
       "title": "InCollege",
-      "image": "/images/incollege.png",
       "description": "A college networking app developed in a software engineering course.",
       "techStack": [
         "Python",
@@ -241,8 +239,42 @@
       ]
     },
     {
+      "title": "Comparing Face Recognition Algorithms and Methods",
+      "description": "A project comparing various face recognition algorithms (K-NN, PCA, LDA, SVM, LeNet5) using the Olivetti faces dataset.",
+      "techStack": [
+        "K-NN",
+        "PCA",
+        "LDA",
+        "SVM",
+        "LeNet5",
+        "Python",
+        "Scikit-learn",
+        "TensorFlow"
+      ],
+      "course": "Intro to Artificial Intelligence",
+      "github": "https://github.com/hieuminh65/face-recognition",
+      "bulletPoints": [
+        "Implemented and compared multiple face recognition algorithms including K-NN, PCA, LDA, SVM, and LeNet5 using the Olivetti faces dataset.",
+        "Analyzed the performance of each algorithm in terms of accuracy, precision, recall, and computational efficiency.",
+        "Preprocessed the dataset to normalize pixel values and resize images to 64x64 dimensions.",
+        "Utilized Scikit-learn for traditional machine learning algorithms and TensorFlow for deep learning models."
+      ]
+    },
+    {
+      "title": "Movie Review Sentiment Analysis",
+      "description": "A project for sentiment analysis on IMDB movie reviews using Logistic Regression.",
+      "techStack": ["Logistic Regression", "Python", "Scikit-learn", "NLP"],
+      "course": "Intro to Artificial Intelligence",
+      "github": "https://github.com/hieuminh65/movie-sentiment-analysis",
+      "bulletPoints": [
+        "Performed sentiment analysis on the IMDB Movie Reviews Dataset using Logistic Regression.",
+        "Achieved an accuracy of 88% on the test set.",
+        "Preprocessed the dataset by tokenizing, removing stop words, and vectorizing text data.",
+        "Utilized Scikit-learn for model training and evaluation."
+      ]
+    },
+    {
       "title": "Stock Data",
-      "image": "/images/stock-data.png",
       "description": "A software development system project visualizing stock data.",
       "techStack": [
         "C#",
@@ -255,6 +287,26 @@
       "github": "https://github.com/hieuminh65/Stock-Project3",
       "bulletPoints": [
         "Orchestrated the creation of a C# .NET Windows Forms application to deliver stock data visualization and management through GUI design and object-oriented class implementation in Visual Studio."
+      ]
+    },
+    {
+      "title": "Winnie the Pooh",
+      "description": "Building a robot as a cute toy for children.",
+      "techStack": [
+        "Arduino",
+        "TinkerCAD",
+        "3D Printing",
+        "PLA Filament",
+        "Ultrasonic Sensors",
+        "LED Lights"
+      ],
+      "course": "Foundations of Engineering",
+      "github": "https://github.com/hieuminh65/winnie_the_pooh",
+      "bulletPoints": [
+        "Created a robot that can follow light and stop when it encounters obstacles.",
+        "Led a team of 5 members through the entire project lifecycle, from design to manufacturing.",
+        "Utilized TinkerCAD for design and 3D printing technology with PLA filament.",
+        "Built the robot using the Arduino platform, featuring ultrasonic proximity sensors and LED lights."
       ]
     }
   ]

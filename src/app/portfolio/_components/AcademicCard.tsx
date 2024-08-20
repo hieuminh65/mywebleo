@@ -18,7 +18,7 @@ const AcademicProjectCard: React.FC<{ project: any }> = ({ project }) => {
     }
   };
 
-  const visibleTagsCount = 2;
+  const visibleTagsCount = 3;
   const visibleTags = project.techStack.slice(0, visibleTagsCount);
   const hiddenTags = project.techStack.slice(visibleTagsCount);
 
