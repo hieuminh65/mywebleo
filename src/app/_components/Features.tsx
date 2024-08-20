@@ -26,7 +26,7 @@ const projects = [
     title: "Publication: Brand Bias in LLMs",
     description:
       "Research publication on understanding and addressing brand bias in large language models.",
-    image: "/portfolio/publication.png", // Placeholder image, replace with actual if available
+    image: "/portfolio/publication.png",
   },
   {
     title: "Bull Bot",
@@ -37,14 +37,14 @@ const projects = [
   {
     title: "TTL Dataset",
     description:
-      "An open-source dataset of 3M tokens, created for training the Talk To Listen app, with 2000 downloads monthly.",
-    image: "/portfolio/ttldataset.png", // Placeholder image, replace with actual if available
+      "An open-source dataset of 3 million tokens, created to help developers build better models for character roleplay, with 2,000 downloads monthly.",
+    image: "/portfolio/roleplay.png",
   },
   {
     title: "api4all",
     description:
       "An open-source project integrating models from top ML providers for comprehensive comparisons.",
-    image: "/portfolio/api4all.png", // Placeholder image, replace with actual if available
+    image: "/portfolio/api4all.png",
   },
 ];
 
