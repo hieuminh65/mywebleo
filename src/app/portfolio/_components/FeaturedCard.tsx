@@ -35,7 +35,7 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-64 object-cover rounded-xl shadow-md"
+          className="w-full h-96 md:h100 object-cover rounded-xl shadow-md"
         />
         <div className="absolute top-0 right-0 bg-highlight-orange text-white text-sm px-4 py-2 rounded-bl-lg shadow-lg">
           {project.users}+ Users

@@ -34,18 +34,20 @@ const ProjectHeader: React.FC<ProjectHeaderProps> = ({
           ></iframe>
         </div>
       ) : (
-        <img
-          src={heroImageUrl}
-          alt={title}
-          className="w-full h-64 object-cover mt-8 rounded-lg shadow-lg"
-        />
+        <div className="flex justify-center">
+          <img
+            src={heroImageUrl}
+            alt={title}
+            className="w-96 h-96 object-cover mt-8 rounded-lg shadow-lg"
+          />
+        </div>
       )}
       {websiteLink && (
         <a
           href={websiteLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-8 px-8 py-3 bg-highlight-orange text-white font-medium rounded-full shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:shadow-highlight-orange/50"
+          className="inline-block mt-8 px-8 py-3 bg-highlight-purple text-white font-medium rounded-full shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:shadow-highlight-purple/50"
         >
           Visit Website
         </a>
