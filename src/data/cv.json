@@ -84,7 +84,7 @@
         {
           "title": "Talk To Listen",
           "content": [
-            "Talk To Listen (talktolisten.com) | FastAPI, Python, React Native, JavaScript, REST APIs, SQL, Firebase, Redux, CI/CD, AWS, Azure.",
+            "Technologies: FastAPI, Python, React Native, JavaScript, REST APIs, SQL, Firebase, Redux, CI/CD, AWS, Azure.",
             "Built a SaaS app with 1000+ active users and secured $3000 in sponsorship from Microsoft, OpenAI, and AWS Startup Programs.",
             "Created scalable distributed system architecture using Azure Application Gateway, Azure Load Balancer, Azure Virtual Machines.",
             "Constructed a RESTful APIs server with FastAPI (Python) capable of handling 30+ APIs, and 3 machine learning endpoints, deployed on AWS EC2 using Docker, and integrated with GitHub Actions for automated CI/CD.",
@@ -112,7 +112,7 @@
         {
           "title": "JobsDreamer",
           "content": [
-            "JobsDreamer (jobsdreamer.com) | Scrapy, Selenium, Python, Google Gemini 1M API, GPT4o, Llama3, Proxy, Azure, AWS, Next.js, TypeScript.",
+            "Technologies: Scrapy, Selenium, Python, Google Gemini 1M API, GPT4o, Llama3, Proxy, Azure, AWS, Next.js, TypeScript.",
             "Launched a platform that assists hundreds of students in finding internships, automatically sending them emails with newly all posted relevant internship opportunities on the internet within the last 24 hours.",
             "Established a comprehensive job data processing pipeline utilizing latest AI tools, AWS EventBridge, AWS Step Functions, AWS Fargate, and AWS Lambda to automate daily web scraping, data preprocessing, and email notifications.",
             "Integrated a GPT-4o and Google Gemini based categorizing and reviewing system to automatically classify and validate job data, ensuring high accuracy and relevance of categorized data.",
@@ -131,7 +131,7 @@
         {
           "title": "BullBot",
           "content": [
-            "BullBot (bullbot.tech) | Flask, AWS, Vite.js, Express.js, Node.js, Pytorch, Langchain, Python.",
+            "Technologies: Flask, AWS, Vite.js, Express.js, Node.js, Pytorch, Langchain, Python.",
             "Pioneered a full stack chatbot web app answering queries across 1500+ Uni of South Florida websites with natural language recognition, providing precise sources for user clarity, especially for parents less adept at online searches.",
             "Developed a Retrieval Augmented Generation (RAG) system, integrating Vector Store for efficient data management, significantly optimizing data weight, and expediting database information retrieval processes.",
             "Maintained a scalable and fault-tolerant data storage solution, resulting in a 95% reduction in storage costs.",
@@ -151,6 +151,14 @@
           ]
         },
         {
+          "title": "Leo Bot",
+          "content": [
+            "Next.js, TypeScript, OpenAI Assistant API, Large Language Model (LLM).",
+            "Developed a personal chatbot assistant using Next.js and TypeScript, integrating OpenAI Assistant API for enhanced conversational capabilities.",
+            "Implemented Retrieval Augmented Generation to improve response accuracy and relevance."
+          ]
+        },
+        {
           "title": "InCollege",
           "content": [
             "Python, Scrum (Agile), Object Oriented Programming, Git/GitHub, pytest.",
@@ -162,14 +170,14 @@
         {
           "title": "Chatbot GPT",
           "content": [
-            "React.js, HTML, CSS, JavaScript, Node.js, OpenAI API",
+            "React.js, HTML, CSS, JavaScript, Node.js, OpenAI API.",
             "Crafted a dynamic and interactive ChatGPT clone utilizing React.js and Node.js, integrating OpenAI API for advanced conversational capabilities, enhancing both functionality and user experience."
           ]
         },
         {
           "title": "Car Repairing System Design",
           "content": [
-            "Python, Relational DBSM, PostgreSQL, Streamlit, Database Design, Azure, SQL",
+            "Python, Relational DBSM, PostgreSQL, Streamlit, Database Design, Azure, SQL.",
             "Developed a full-stack e-commerce platform for car parts trading, designing schemas and EER diagrams, and integrated a PostgreSQL database using psycopg2, enhancing data management efficiency.",
             "Designed complex SQL queries, optimizing query performance through carefully indexing and query plan analysis."
           ]
@@ -177,14 +185,14 @@
         {
           "title": "Stock Data",
           "content": [
-            "C# .NET, Visual Studio, Object Oriented Programming, Git/Github",
+            "C# .NET, Visual Studio, Object Oriented Programming, Git/Github.",
             "Orchestrated the creation of a C# .NET Windows Forms application to deliver stock data visualization and management through GUI design and object-oriented class implementation in Visual Studio."
           ]
         },
         {
           "title": "Resume Keywords",
           "content": [
-            "Python, Streamlit, Snowflake, Snowflake Arctic LLM, Replicate, Streamlit",
+            "Python, Streamlit, Snowflake, Snowflake Arctic LLM, Replicate, Streamlit.",
             "Implemented a Streamlit app powered by Snowflake Artic LLM to generate optimized resume bullet points from keywords.",
             "Utilized Snowflake Data Cloud to store, query, and managed large datasets, to ensure seamless data retrieval in the application."
           ]
