@@ -3,7 +3,7 @@
     {
       "title": "Talk To Listen",
       "image": "/portfolio/ttl.png",
-      "description": "A SaaS app with 1000+ active users, enabling hands-free voice input and real-time speech and response with unique characters and voices.",
+      "description": "SaaS app with 1000+ active users, enabling hands-free voice input and real-time speech and response with unique characters and voices.",
       "techStack": [
         "React Native",
         "FastAPI",
@@ -54,7 +54,7 @@
     {
       "title": "JobsDreamer",
       "image": "/portfolio/jobsdreamer.png",
-      "description": "A platform assisting students in finding internships, with automated web scraping and notifications. Sends daily updates of all jobs posted in the last 24 hours on the internet.",
+      "description": "Platform assisting students in finding internships, with automated web scraping and notifications. Sends daily updates of all jobs posted in the last 24 hours on the internet.",
       "techStack": [
         "AI Filtering",
         "Python",
@@ -91,7 +91,7 @@
     {
       "title": "Bull Bot",
       "image": "/portfolio/bullbot.png",
-      "description": "Developed a full-stack chatbot web app for the University of South Florida, utilizing natural language recognition to answer queries across 1500+ websites",
+      "description": "Full-stack chatbot web app for the University of South Florida, utilizing natural language recognition to answer queries across 1500+ websites.",
       "techStack": [
         "Flask",
         "AWS",
@@ -116,7 +116,7 @@
     {
       "title": "Leo Bot",
       "image": "/portfolio/leobot.png",
-      "description": "A personal chatbot assistant built with Next.js and TypeScript, leveraging OpenAI Assistant API for Retrival Augmented Generation.",
+      "description": "Personal chatbot assistant built with Next.js and TypeScript, leveraging OpenAI Assistant API for Retrival Augmented Generation.",
       "techStack": [
         "Next.js",
         "TypeScript",
@@ -183,7 +183,7 @@
     {
       "title": "Resume Keywords",
       "image": "/portfolio/resume-keywords.png",
-      "description": "A Streamlit app generating optimized resume bullet points using Snowflake Arctic Large Language Model (LLM).",
+      "description": "Streamlit app generating optimized resume bullet points using Snowflake Arctic Large Language Model (LLM).",
       "techStack": [
         "Python",
         "Streamlit",
