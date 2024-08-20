@@ -32,7 +32,7 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-48 object-cover rounded-lg shadow-md"
+        className="w-full h-64 object-cover rounded-lg shadow-md"
       />
       <div className="p-6 flex-grow flex flex-col justify-between">
         <div className="mb-4 flex-grow">

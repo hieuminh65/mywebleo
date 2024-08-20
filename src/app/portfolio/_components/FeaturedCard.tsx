@@ -37,7 +37,13 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
           alt={project.title}
           className="w-full h-96 md:h100 object-cover rounded-xl shadow-md"
         />
-        <div className="absolute top-0 right-0 bg-highlight-orange text-white text-sm px-4 py-2 rounded-bl-lg shadow-lg">
+        <div
+          className={`absolute top-0 right-0 ${
+            project.title === "Talk To Listen"
+              ? "bg-highlight-orange"
+              : "bg-highlight-purple"
+          } text-white text-sm px-4 py-2 rounded-bl-lg shadow-lg`}
+        >
           {project.users}+ Users
         </div>
       </div>
