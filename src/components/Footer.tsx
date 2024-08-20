@@ -12,16 +12,16 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Navigation Links */}
           <div className="flex space-x-4 mb-4 md:mb-0 text-sm">
-            <a href="#about" className="hover:text-highlight-orange">
+            <a href="/about" className="hover:text-highlight-orange">
               About
             </a>
-            <a href="#portfolio" className="hover:text-highlight-orange">
+            <a href="/portfolio" className="hover:text-highlight-orange">
               Portfolio
             </a>
-            <a href="#experience" className="hover:text-highlight-orange">
+            <a href="/experience" className="hover:text-highlight-orange">
               Experience
             </a>
-            <a href="#contact" className="hover:text-highlight-orange">
+            <a href="/contact" className="hover:text-highlight-orange">
               Contact
             </a>
           </div>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-4 mb-4 md:mb-0">
             <a
-              href="https://github.com"
+              href="https://github.com/hieuminh65"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-highlight-orange"
@@ -37,21 +37,21 @@ const Footer: React.FC = () => {
               <GitHubLogoIcon width={20} height={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/hieunguyen65/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-highlight-orange"
             >
               <LinkedInLogoIcon width={20} height={20} />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-highlight-orange"
             >
               <TwitterLogoIcon width={20} height={20} />
-            </a>
+            </a> */}
           </div>
 
           {/* Copyright Notice */}

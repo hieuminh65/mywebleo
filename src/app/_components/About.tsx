@@ -32,7 +32,12 @@ const About: React.FC = () => {
               whileHover={{ scale: 1.2 }}
               transition={{ duration: 0.3 }}
             >
-              <Link href="https://github.com/yourusername" passHref>
+              <Link
+                href="https://github.com/hieuminh65"
+                passHref
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/logos/github.png"
                   alt="GitHub"
@@ -44,7 +49,12 @@ const About: React.FC = () => {
               whileHover={{ scale: 1.2 }}
               transition={{ duration: 0.3 }}
             >
-              <Link href="https://linkedin.com/in/yourusername" passHref>
+              <Link
+                href="https://www.linkedin.com/in/hieunguyen65/"
+                passHref
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/logos/linkedin.png"
                   alt="LinkedIn"
@@ -56,7 +66,12 @@ const About: React.FC = () => {
               whileHover={{ scale: 1.2 }}
               transition={{ duration: 0.3 }}
             >
-              <Link href="https://devpost.com/yourusername" passHref>
+              <Link
+                href="https://devpost.com/hieung-tech?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+                target="_blank"
+                rel="noopener noreferrer"
+                passHref
+              >
                 <img
                   src="/logos/devpost.png"
                   alt="Devpost"
@@ -68,7 +83,12 @@ const About: React.FC = () => {
               whileHover={{ scale: 1.2 }}
               transition={{ duration: 0.3 }}
             >
-              <Link href="https://huggingface.co/yourusername" passHref>
+              <Link
+                href="https://huggingface.co/hieunguyenminh"
+                passHref
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/logos/huggingface.png"
                   alt="Huggingface"
