@@ -6,7 +6,7 @@ import GradualSpacing from "@/app/_components/HeroHeading";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="flex items-center justify-center h-screen bg-white text-off-black px-8">
+    <section className="flex flex-col md:flex-row items-center justify-center h-screen bg-white text-off-black px-8">
       <motion.img
         src="/avatar.png"
         alt="Avatar"
@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       />
-      <div className="text-4xl font-bold text-off-black">
+      <div className="text-2xl md:text-4xl mt-2 font-bold text-off-black">
         <span>
           <GradualSpacing text="Discover my story" />
         </span>
