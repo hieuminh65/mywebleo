@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Talk To Listen",
     description:
-      "A web app with 1000+ users that leverages machine learning to enhance communication. Built using FastAPI and AWS.",
+      "A mobile app with 1000+ users that let users talk seamlessly with thousands of characters, each with unique personalities, voice, and stories.",
     image: "/portfolio/talktolisten.png",
   },
   {
