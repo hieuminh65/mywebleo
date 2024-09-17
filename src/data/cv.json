@@ -85,7 +85,7 @@
           "title": "Talk To Listen",
           "content": [
             "Technologies: FastAPI, Python, React Native, JavaScript, REST APIs, SQL, Firebase, Redux, CI/CD, AWS, Azure.",
-            "Built a SaaS app with 1000+ active users and secured $3000 in sponsorship from Microsoft, OpenAI, and AWS Startup Programs.",
+            "Built a SaaS app with 1000+ active users and secured $10,000+ in sponsorship from Microsoft, OpenAI, and AWS Startup Programs.",
             "Created scalable distributed system architecture using Azure Application Gateway, Azure Load Balancer, Azure Virtual Machines.",
             "Constructed a RESTful APIs server with FastAPI (Python) capable of handling 30+ APIs, and 3 machine learning endpoints, deployed on AWS EC2 using Docker, and integrated with GitHub Actions for automated CI/CD.",
             "Created and published an open-source dataset of 3M tokens (nearly 2000 downloads monthly) and fine-tuned an LLM model using supervised learning, quantization method (QLoRA), and Pytorch, achieving an accuracy of 85%.",
