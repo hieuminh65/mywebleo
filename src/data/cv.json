@@ -141,7 +141,7 @@
             "Orchestrated a microservice architecture leveraging Vite.js, Express.js/Node.js, and various AWS services such as AWS EC2, AWS API Gateway, AWS Lambda, achieving a significant server workload reduction.",
             "Utilized opensource Hugging Face models and quantized Meta Llama2 with PyTorch, LoRA, PEFT, to reduce model’s weight and speed up model training, resulting in an 90% cost-saving on deployment."
           ],
-          "link": "https://www.bullbot.tech"
+          "link": "https://www.bullbot.space"
         },
         {
           "title": "api4all",
