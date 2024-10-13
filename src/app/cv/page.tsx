@@ -66,7 +66,7 @@ const CVPage: React.FC = () => {
                     ? "A concise, one-page overview of my experience and skills."
                     : title === "Printed Resume"
                     ? "A formatted, print-ready version of my resume."
-                    : "A detailed CV including all my projects, experience, and more."}
+                    : "Too long, don't read this."}
                 </p>
                 <Link
                   href={
