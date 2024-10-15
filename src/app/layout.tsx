@@ -19,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <CopilotKit runtimeUrl="/api/copilotkit">{children}</CopilotKit>
+        <CopilotKit runtimeUrl="https://bullbot-back-server.azurewebsites.net/copilotkit">
+          {children}
+        </CopilotKit>
       </body>
     </html>
   );

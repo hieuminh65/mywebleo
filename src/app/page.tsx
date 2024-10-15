@@ -41,6 +41,13 @@ export default function HomePage() {
     };
   }, []);
 
+  const makeSystemMessage = (
+    contextString: string,
+    additionalInstructions?: string
+  ): string => {
+    return `${contextString} ${additionalInstructions || ""}`;
+  };
+
   return (
     <div className="relative h-screen flex flex-col">
       {!showPage && (
@@ -88,6 +95,7 @@ export default function HomePage() {
                   title: "Leo Bot 🤖",
                   initial: "Hi you! 👋 Want to ask something about Leo?",
                 }}
+                makeSystemMessage={makeSystemMessage}
                 defaultOpen={false}
               />
             </div>
