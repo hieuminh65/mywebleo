@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { CopilotPopup } from "@copilotkit/react-ui";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import GradualSpacing from "./_components/HeroHeading";
@@ -75,6 +76,21 @@ export default function HomePage() {
             <Skills />
             <FeaturedProjects />
             <Footer />
+            <div
+              style={
+                {
+                  "--copilot-kit-primary-color": "#1A1A1A",
+                } as React.CSSProperties
+              }
+            >
+              <CopilotPopup
+                labels={{
+                  title: "Leo Bot 🤖",
+                  initial: "Hi you! 👋 Want to ask something about Leo?",
+                }}
+                defaultOpen={false}
+              />
+            </div>
           </motion.div>
         </>
       )}
