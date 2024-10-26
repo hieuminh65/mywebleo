@@ -11,6 +11,7 @@ import ArrowDown from "@/components/ArrowDown";
 import About from "./_components/About";
 import Skills from "./_components/Skills";
 import FeaturedProjects from "./_components/Features";
+import { DEFAULT_MESSAGE } from "@/data/constants";
 
 export default function HomePage() {
   const [showPage, setShowPage] = useState(false);
@@ -45,7 +46,7 @@ export default function HomePage() {
     contextString: string,
     additionalInstructions?: string
   ): string => {
-    return `${contextString} ${additionalInstructions || ""}`;
+    return `${contextString} ${additionalInstructions || DEFAULT_MESSAGE}`;
   };
 
   return (
