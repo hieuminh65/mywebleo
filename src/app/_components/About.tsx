@@ -8,15 +8,10 @@ const About: React.FC = () => {
   return (
     <section className="max-w-4xl mx-auto px-12 py-12 rounded-xl bg-off-white">
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <motion.img
+        <img
           src="/avatar.png"
           alt="Leo"
-          className="rounded-full w-48 h-48 mb-8 md:mb-0 md:mr-8 shadow-lg"
-          whileHover={{
-            scale: 1.05,
-            boxShadow: "0px 10px 20px rgba(0,0,0,0.2)",
-          }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="motion-preset-seesaw rounded-full w-48 h-48 mb-8 md:mb-0 md:mr-8 shadow-lg"
         />
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold text-off-black">About Me</h2>
