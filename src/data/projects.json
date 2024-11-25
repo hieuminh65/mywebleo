@@ -127,7 +127,8 @@
       "bulletPoints": [
         "Developed a personal chatbot assistant using Next.js and TypeScript, integrating OpenAI Assistant API for enhanced conversational capabilities.",
         "Implemented Retrieval Augmented Generation to improve response accuracy and relevance."
-      ]
+      ],
+      "InDevelopment": "True"
     },
     {
       "title": "api4all",

@@ -34,10 +34,15 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
 
   return (
     <div
-      className="relative bg-off-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between"
+      className="relative bg-off-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between group"
       onClick={handleOutsideClick}
       style={{ minHeight: "100%" }} // Ensures all cards stretch to the same height
     >
+      {project.InDevelopment && (
+        <div className="absolute top-0 left-0 bg-highlight-orange text-white text-xs font-medium px-2 py-1 rounded-br-lg opacity-0 group-hover:opacity-100 transform group-hover:translate-y-0 -translate-y-2 transition-all duration-300">
+          In Development
+        </div>
+      )}
       <img
         src={project.image}
         alt={project.title}
