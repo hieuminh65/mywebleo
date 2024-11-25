@@ -25,6 +25,15 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
     }
   };
 
+  const handleImageClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent the card click event
+    if (project.website) {
+      window.open(project.website, "_blank");
+    } else if (project.github) {
+      window.open(project.github, "_blank");
+    }
+  };
+
   return (
     <div
       className="relative bg-off-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 max-w-full lg:max-w-2xl mx-auto flex flex-col justify-between"
@@ -35,7 +44,8 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-96 md:h100 object-cover rounded-xl shadow-md"
+          className="w-full h-96 md:h100 object-cover rounded-xl shadow-md cursor-pointer"
+          onClick={handleImageClick}
         />
         <div
           className={`absolute top-0 right-0 ${
@@ -88,6 +98,7 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
+              onClick={(e) => e.stopPropagation()}
             >
               <GlobeIcon />
             </a>
@@ -98,13 +109,17 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
+              onClick={(e) => e.stopPropagation()}
             >
               <GitHubLogoIcon />
             </a>
           )}
           {project.bulletPoints && project.bulletPoints.length > 0 && (
             <button
-              onClick={toggleDetails}
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleDetails();
+              }}
               className="btn flex items-center space-x-1 text-sm px-3 py-2"
             >
               <InfoCircledIcon className="w-4 h-4" />
@@ -114,6 +129,7 @@ const ImpactfulDeploymentCard: React.FC<{ project: any }> = ({ project }) => {
             <a
               href={project.link}
               className="btn flex items-center space-x-1 text-sm px-3 py-2"
+              onClick={(e) => e.stopPropagation()}
             >
               <span>Learn More</span>
               <ArrowRightIcon className="w-3 h-3" />

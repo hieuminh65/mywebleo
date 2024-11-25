@@ -23,6 +23,15 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
   const visibleTags = project.techStack.slice(0, visibleTagsCount);
   const hiddenTags = project.techStack.slice(visibleTagsCount);
 
+  const handleImageClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent the card click event
+    if (project.website) {
+      window.open(project.website, "_blank");
+    } else if (project.github) {
+      window.open(project.github, "_blank");
+    }
+  };
+
   return (
     <div
       className="relative bg-off-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between"
@@ -32,7 +41,8 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-64 object-cover rounded-lg shadow-md"
+        className="w-full h-64 object-cover rounded-lg shadow-md cursor-pointer"
+        onClick={handleImageClick}
       />
       <div className="p-6 flex-grow flex flex-col justify-between">
         <div className="mb-4 flex-grow">
@@ -75,6 +85,7 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
+              onClick={(e) => e.stopPropagation()}
             >
               <GlobeIcon />
             </a>
@@ -85,13 +96,17 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
+              onClick={(e) => e.stopPropagation()}
             >
               <GitHubLogoIcon />
             </a>
           )}
           {project.bulletPoints && project.bulletPoints.length > 0 && (
             <button
-              onClick={toggleDetails}
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleDetails();
+              }}
               className="btn flex items-center space-x-1 text-sm px-3 py-2"
             >
               <InfoCircledIcon className="w-4 h-4" />
@@ -101,6 +116,7 @@ const PersonalCreationCard: React.FC<{ project: any }> = ({ project }) => {
             <a
               href={project.link}
               className="btn flex items-center space-x-1 text-sm px-3 py-2"
+              onClick={(e) => e.stopPropagation()}
             >
               <span>Learn More</span>
               <ArrowRightIcon className="w-3 h-3" />
