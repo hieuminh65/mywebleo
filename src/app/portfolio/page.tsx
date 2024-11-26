@@ -47,7 +47,7 @@ const PortfolioPage: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
               >
-                Filter projects by technologies to find exactly what you're looking for. Select multiple skills to see projects that combine them.
+                Filter projects by technologies to find exactly what you&apos;re looking for. Select multiple skills to see projects that combine them.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0 }}
