@@ -22,7 +22,6 @@ const Navbar: React.FC = () => {
             width={40}
             height={40}
             style={{ cursor: "pointer", borderRadius: "25%" }}
-            layout="fixed"
           />
           <span className="text-2xl font-bold text-off-black ml-2">leo</span>
         </Link>
