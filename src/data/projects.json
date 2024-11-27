@@ -310,5 +310,53 @@
         "Built the robot using the Arduino platform, featuring ultrasonic proximity sensors and LED lights."
       ]
     }
+  ],
+  "experience": [
+    {
+      "title": "Research Assistant",
+      "description": "Conducted comprehensive research on bias in Large Language Models (LLMs) and optimized code generation techniques. Collaborated on multiple projects with researchers and students.",
+      "techStack": [
+        "Algorithm",
+        "Sanbox Testing",
+        "Muli-Threaded Programming",
+        "Data Structures",
+        "Large Language Model (LLM)",
+        "Parallel Computing",
+        "Python"
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "description": "Guided students in programming, covering topics like object-oriented programming, data structures, and algorithms. Conducted code reviews and led review sessions.",
+      "techStack": ["C++", "C", "OOP", "Data Structures", "Algorithms"]
+    },
+    {
+      "title": "AI/ML Software Engineer (Intern)",
+      "description": "Focused on building and designing a mindfulness mobile app aimed at enhancing emotional self-awareness.",
+      "techStack": [
+        "AWS",
+        "React Native",
+        "Penetration Testing",
+        "Flask",
+        "Snyk",
+        "Figma",
+        "Linux",
+        "Python"
+      ]
+    },
+    {
+      "title": "AI/ML Developer (Intern)",
+      "description": "Worked on developing deep learning models and optimizing them for emotional prediction in a mindfulness app.",
+      "techStack": [
+        "Keras",
+        "Deep Learning",
+        "Numpy",
+        "Pandas",
+        "sklearn",
+        "matplotlib",
+        "TensorFlow",
+        "Python"
+      ]
+    }
   ]
 }
