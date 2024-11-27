@@ -146,7 +146,7 @@
         {
           "title": "api4all",
           "content": [
-            "Python, ML/LLM provider, ML/LLM API, Object Oriented Programming, open-source.",
+            "Python, ML/LLM provider, ML/LLM API, Object-Oriented Programming, open-source.",
             "Maintained an easy-to-use open-source project, integrating cutting-edge models from state-of-the-art providers and conducting comprehensive comparisons to ensure optimal performance and functionality."
           ]
         },
@@ -161,7 +161,7 @@
         {
           "title": "InCollege",
           "content": [
-            "Python, Scrum (Agile), Object Oriented Programming, Git/GitHub, pytest.",
+            "Python, Scrum (Agile), Object-Oriented Programming, Git/GitHub, pytest.",
             "Worked with an Agile/Scrum team to develop a college networking app, leveraging Agile methodologies to streamline development, ensure adaptability to evolving requirements and meet project milestones efficiently.",
             "Implemented a modular and object-oriented architecture facilitating independent development, reusability, scalability, and efficient collaboration among team members.",
             "Conducted 15+ unit test and integration test cases every week, warranting the functionality of new features."
@@ -185,7 +185,7 @@
         {
           "title": "Stock Data",
           "content": [
-            "C# .NET, Visual Studio, Object Oriented Programming, Git/Github.",
+            "C# .NET, Visual Studio, Object-Oriented Programming, Git/Github.",
             "Orchestrated the creation of a C# .NET Windows Forms application to deliver stock data visualization and management through GUI design and object-oriented class implementation in Visual Studio."
           ]
         },
