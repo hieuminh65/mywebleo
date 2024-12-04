@@ -127,6 +127,18 @@
       "bulletPoints": [
         "Developed a personal chatbot assistant using Next.js and TypeScript, integrating OpenAI Assistant API for enhanced conversational capabilities.",
         "Implemented Retrieval Augmented Generation to improve response accuracy and relevance."
+      ]
+    },
+    {
+      "title": "Flash Story",
+      "image": "/portfolio/flashstory.png",
+      "description": "Personalized Short Story App, an iOS app built with Swift and SwiftUI 17+, delivering a TikTok-inspired interface for enjoying short stories with seamless scrolling.",
+      "techStack": ["Swift", "SwiftUI", "Node.js", "Express.js", "MongoDB"],
+      "github": "https://github.com/FlashStory",
+      "bulletPoints": [
+        "Designed and developed an engaging iOS app with a TikTok-inspired interface for short story discovery.",
+        "Enhanced the user experience with smooth scrolling and dynamic animations using SwiftUI and Swift 17+.",
+        "Built a robust backend using Node.js and Express.js, ensuring seamless integration with MongoDB for scalable data management."
       ],
       "InDevelopment": "True"
     },
