@@ -165,12 +165,12 @@ const AchievementCard = ({
         } gap-8 items-center`}
       >
         <div className="w-full md:w-1/2 relative">
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-gray-200">
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg border border-border bg-muted p-2">
             <Image
               src={achievement.image || "/placeholder.svg"}
               alt={achievement.title}
               fill
-              className="object-cover"
+              className="object-cover rounded-md"
             />
           </div>
         </div>
