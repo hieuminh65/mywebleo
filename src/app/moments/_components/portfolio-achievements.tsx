@@ -81,6 +81,14 @@ const achievements: Achievement[] = [
     image: "/moments/14.png",
   },
   {
+    id: "15",
+    title: "First open-source contribution",
+    date: "July 2023",
+    description:
+      "I made my first open-source contribution by uploading a dataset of 3 million tokens to Hugging Face, created to help developers build better AI models for character roleplay, with 2,000 downloads monthly.",
+    image: "/moments/15.png",
+  },
+  {
     id: "10",
     title: "Talk to Listen reached 500 users",
     date: "July 2023",
@@ -196,7 +204,7 @@ const AchievementCard = ({
 
 export default function PortfolioAchievements() {
   return (
-    <section className="py-16 px-4 md:px-6">
+    <section className="px-4 md:px-6">
       <div className="container mx-auto max-w-5xl">
         <div className="space-y-16">
           {achievements.map((achievement, index) => (
