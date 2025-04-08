@@ -46,6 +46,14 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <a
+              href="/moments"
+              className="text-off-black font-medium hover:text-highlight-orange transition-colors"
+            >
+              Moments
+            </a>
+          </li>
+          <li>
+            <a
               href="/portfolio"
               className="text-off-black font-medium hover:text-highlight-orange transition-colors"
             >
@@ -132,6 +140,15 @@ const Navbar: React.FC = () => {
               onClick={() => setIsOpen(false)}
             >
               CV & Resume
+            </a>
+          </li>
+          <li>
+            <a
+              href="/moments"
+              className="text-off-black font-medium hover:text-highlight-orange transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Moments
             </a>
           </li>
           <li>
