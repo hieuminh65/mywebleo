@@ -1,13 +1,14 @@
-# Student Portfolio Website
+# Leo Portfolio Website
 
 ## Description
 
-This is a simple portfolio website for students to showcase their projects and skills.
+This is my personal portfolio website.
 
 ## Frameworks and Libraries
 
 - Next.js 14
 - Tailwind CSS
-- shadcn-ui
-- magic-ui
-- radix-ui / react-icons
+- [shadcn-ui](https://ui.shadcn.com)
+- [magic-ui](https://magicui.design)
+- [radix-ui / react-icons](https://www.radix-ui.com/icons)
+- [framer-motion](https://www.framer.com/motion)
